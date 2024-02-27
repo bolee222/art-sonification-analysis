@@ -1,0 +1,11 @@
+,name,artwork,sod,gRoq1,gRoq2,gRoq3,gRoq4,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density
+0,나비,A17,1,,,"[열C] colC,[열D] colD,[열B] colB","[열C] colC,[열D] colD,[열B] colB",너무 평온해보이는 자세,1.0,1,1.0,1,1.0,1
+1,rub,A17,4,,,"[열B] colB,[열C] colC",,the horse is eating grass,3.0,3 |  they are resting and the color is not really energetic,4.0,4 |  relaxing and not dangerous,3.0,3 |  relaxing and not dangerous + it's night time
+2,Daisy,A17,5,,,"[열C] colC,[열D] colD","[열C] colC,[열D] colD,[열B] colB",There are humans and animals in the checked boxes.,1.0,"1 |  The two people are sleeping, so I think slow music would fit best.",3.0,"3 |  They are sleeping, so the pitch should not be too high to wake them up.",3.0,3 |  And sparse music would be better for sleeping.
+3,Doky,A17,0,,,"[열C] colC,[열D] colD",,역동적인 느낌이 없음.,1.0,1 |  인물의 역동적 움직임이 없기 때문에 느린 템포가 연상됨.,4.0,4 |  '쉼'이지만 너무 낮지는 않은 음이 어울림. 그림의 색채가 비교적 밝고 강렬함. ,2.0,2 |  음악의 밀도는 낮고 좀 차분하고 잔잔한 음악이 어울림. 
+4,chanpig,A17,2,,,"[열C] colC,[열B] colB","[열B] colB,[열C] colC",사람들이 일을하다가 누어있ㄴ음,2.0,2 |  일을하다가 쉬는중에 잠을 자는데 푹 잠든 느낌 ,2.0,2 |  일을하다가 쉬는중에 잠을 자는데 푹 잠든 느낌 ,2.0,2 |  일을하다가 쉬는중에 잠을 자는데 푹 잠든 느낌 배경 색감이 어두운걸로 보아 밤이 되어가는 그느낌이밀도가 낮을듯하다
+5,곤듀,A17,1,[열D] colD,[열D] colD,"[열C] colC,[열D] colD,[열B] colB,[열A] colA","[열D] colD,[열C] colC,[열B] colB","인물들의 쉬고 있는 동작, 주변의 작업 도구, 쌓여있는 짚단?이 보임에 따라 어떠한 일이 끝난 후를 보여주는 정적인 느낌을 받음",3.0,3 |  정적인 느낌을 주는 그림에는 다소 느린 템포의 음악이 어울릴 것으로 생각함,3.0,"3 |  본 그림에서는 정적이면서도, 평안한 느낌을 받음. 매우 낮은 음은 해당하지 않으며, 약간 낮은 음에서 보통음까지 어울릴 것이라고 생각함",3.0,3 |  너무 늘어지는 매우 낮은 밀도는 제외하고 적당히 낮은 밀도에서 보통까지 어울릴 것이라고 생각함.
+6,이인애,A17,2,,,"[열A] colA,[열B] colB","[열C] colC,[열D] colD",배경선과인물구도가같은가로평행구조,1.0,1,2.0,2,3.0,3
+7,고고,A17,0,,,"[열D] colD,[열C] colC","[열D] colD,[열C] colC",잠든 모습,0.0,0,0.0,0,0.0,0
+8,경,A17,1,,,"[열B] colB,[열C] colC,[열D] colD","[열C] colC,[열D] colD","사람들이 자고 있는 모습에서 정적인 느낌을, 그러나 동물 그림으로부터 아주아주 약간의 동적인 느낌을 얻을 수 있음.",1.0,1 |  잠을 자고 있는 정적인 모습을 잘 드러냄.,3.0,"3 |  잠을 자는 정적인 모습, 움직일지도 모르는 동물 장면에 잘 어울림.",2.0,2 |  낮은 밀도가 대체로 정적인 이 그림과 잘 어울림.
+9,yoni,A17,2,"[열A] colA,[열B] colB,[열C] colC,[열D] colD",,"[열D] colD,[열C] colC,[열B] colB",,인물의 자세 그림의 시간대 얌전한 동물,3.0,3,7.0,7,3.0,3
