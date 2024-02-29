@@ -1,0 +1,11 @@
+,name,artwork,poseType,sod,gRoq1,gRoq2,gRoq3,gRoq4,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density
+0,나비,A16,lying,0,"[열B] colB,[열C] colC","[열C] colC,[열B] colB","[열B] colB,[열A] colA,[열C] colC",,"사람의 움직임 너무 느껴지지 않고, 이대로 2시간 넘게 있어도 이상하지않을 느낌. 하늘의 움직임 요소 하나 없음 (구름 X)",1.0,1,6.0,6,1.0,1
+1,rub,A16,lying,2,"[열A] colA,[열B] colB,[열C] colC,[열D] colD",[열A] colA,,,I don't think the guy is moving but the sky (clouds),1.0,1 |  it should be really silent and almost not moving,7.0,7 |  the whole image is really bright so i don't think it should go with low pitch but also not too high to make it silent enough,2.0,2 |  silenttt
+2,Daisy,A16,lying,4,,[열B] colB,"[열A] colA,[열B] colB,[열C] colC",,"I tend to associate humans with movements. Also, there are clouds from afar are moving.",2.0,2 |  The overall vibe is very idle.,5.0,"5 |  Not to low nor too high, just the average.",2.0,2 |  There are not many activities going on there.
+3,Doky,A16,lying,1,,,[열C] colC,,"역동적인 느낌이 딱히 없고, 환경적인 부분에 있어서도 휴식이 연상케되어 역동적 느낌이 없음 ",0.0,0 |  인물의 움직임이 아예 누워서 휴식을 취하고 있기 때문에 매우 느린 템포의 곡이 어울릴 것 같음,6.0,"6 |  역동성은 적지만 해당 그림의 색채가 밝아서 비교적 너무 낮지는 않은, 높은 핏치가 이상적일 것으로 생각됨. ",3.0,3 |  그림의 역동적 정도를 나타내는 주변 environment와 인물의 움직임이 없기 때문에 음악의 밀도는 적은 것이 어울릴 것 같음. 
+4,chanpig,A16,lying,1,,,[열C] colC,,움직여서 팔을 머리에 얹음,0.0,0 |  사람이 자고있고 풀들도 움직임이 없다,1.0,1 |  자고있을땐 높은음보단 낮은음일듯한 느낌 ,1.0,1 |  미동없이 누어계셔서
+5,곤듀,A16,lying,0,[열A] colA,,,,"배경, 인물 어디에서도 역동적 느낌이 들지 않음",1.0,1 |  그림에서 어떠한 역동성도 느껴지지 않기에 템포는 느림이 알맞다고 생각함,2.0,2 |  그림에서 하늘의 색감이 너무 우울하게 느껴지지는 않으므로 샘플 상의 매우 낮은 음을 확실히 아님 매우 낮음 음 - 보통 사이에서 낮음에 조금 더 치우친 피치,0.0,0 |  샘플상의 매우 낮은 밀도가 그림에서 느껴지는 정적? 여유로움?과 어울린다고 생각함
+6,이인애,A16,lying,0,,,"[열C] colC,[열B] colB",,수평구조,1.0,1,3.0,3,2.0,2
+7,고고,A16,lying,1,,,[열C] colC,,누워있는모습,1.0,1,1.0,1,1.0,1
+8,경,A16,lying,0,,,"[열C] colC,[열B] colB,[열A] colA",,잠을 자는 모습으로 움직임이 전혀 없는 모습을 나타냄.,1.0,1 |  잠을 자는 정적인 느낌을 잘 드러냄.,0.0,0 |  잠을 자는 정적인 느낌을 잘 드러냄.,0.0,0 |  낮은 밀도의 단순함이 정적인 분위기를 잘 나타냄.
+9,yoni,A16,lying,4,,,"[열A] colA,[열B] colB,[열C] colC",,인물이 이마를 가린자세에서 어떤기분일지 등 상상하게됨,3.0,3,7.0,7,5.0,5

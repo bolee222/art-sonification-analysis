@@ -1,0 +1,11 @@
+,name,artwork,poseType,sod,gRoq1,gRoq2,gRoq3,gRoq4,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density
+0,나비,A21,standing,2,,[열B] colB,[열B] colB,[열B] colB,"그냥 정적으로 서있고, 표정이 무표정이었던 부분. 그런데 핑크색+밝은느낌이라 살작 역동적이게 보이도 함.",2.0,2,7.0,7 |  핑크색적인 부분,1.0,1
+1,rub,A21,standing,0,"[열C] colC,[열B] colB",,,,I don't really think anything is moving in this painting to be honest,1.0,1 |  almost static,5.0,5 |  it looks really moderate,5.0,5 |  it looks really moderate
+2,Daisy,A21,standing,5,"[열D] colD,[열C] colC",[열B] colB,"[열B] colB,[열A] colA",[열B] colB,"There is a woman in the center of the painting. For A3, C1, and D1, I think the color gradient there implies some movements.",5.0,"5 |  The red color adds to the high tempo. Other than that, the scene is still.",8.0,8 |  The woman matches with some high-pitched music.,5.0,"5 |  There is only a woman in the scene, so I rate the average level of density."
+3,Doky,A21,standing,0,[열B] colB,"[열B] colB,[열A] colA",[열B] colB,,역동적으로 느껴지지 않음.,3.0,3 |  역동적인 움직임은 없으나 밝고 경쾌한 색채로 인해 너무 느리지는 않은 템포가 어울림.,7.0,7 |  색채가 밝기 때문에 높은 음악이 더 어울림.,8.0,8 |  밝은 색채와 다양하고 화려한 패턴으로 인하여 음악의 밀도 역시 조금 더 높았으면 좋겠음. 
+4,chanpig,A21,standing,6,,[열B] colB,"[열A] colA,[열B] colB,[열C] colC,[열D] colD","[열A] colA,[열B] colB,[열D] colD,[열C] colC",사람은 그냐우서 있지만 배경과 사물들이 휘어져있어 조금 역동적,7.0,7 |  배경이 주는 느낌도 있고 색감이 정신없다 ,5.0,5 |  정신없는 느낌,5.0,5 |  그림들이 곡선이 많아서 느리면서 빠를꺼같은 느낌
+5,곤듀,A21,standing,0,,[열B] colB,,,전혀 역동적인 느낌이 들지 않음. 그림 속의 모습은 마치 사진을 찍기위한 세트장과 같은 정적인 느낌을 받음.,8.0,"8 |  역동적인 느낌이 전혀 들지 않는 그림이지만, 전체적인 색감이 밝고 가벼운 느낌을 줌에 따라 느린 템포보다는 다소 빠른 템포가 어울릴 것으로 생각함.",8.0,"8 |  역동적인 느낌이 전혀 들지 않는 그림이지만, 전체적인 색감이 밝고 가벼운 느낌을 줌에 따라 낮은 피치보다는 다소 높은 피치의 음이 어울릴 것으로 생각함.",5.0,5 |  음의 밀도가 매우 낮거나 매우 높아 지는 등 호소력 있는 스타일은 어울리지 않음
+6,이인애,A21,standing,6,[열C] colC,"[열A] colA,[열B] colB,[열C] colC",[열A] colA,,흐트러진형체의표현(곡선),4.0,4,3.0,3,6.0,6
+7,고고,A21,standing,1,,[열B] colB,[열B] colB,[열B] colB,제자리에 서있음,1.0,1,1.0,1,1.0,1
+8,경,A21,standing,1,,[열B] colB,[열B] colB,[열B] colB,가만히 서 있는 모습에서 정적인 느낌을 받을 수 있음.,1.0,1 |  가만히 서 있는 정적인 분위기를 잘 나타냄.,2.0,2 |  멍한 느낌과 정적인 분위기를 잘 드러냄.,2.0,2 |  정적인 분위기를 잘 드러냄.
+9,yoni,A21,standing,5,"[열A] colA,[열D] colD","[열A] colA,[열D] colD",,,그림 전체의 다양하고 팝한 색감,3.0,3,7.0,7,3.0,3

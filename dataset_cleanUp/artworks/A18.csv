@@ -1,0 +1,11 @@
+,name,artwork,poseType,sod,gRoq1,gRoq2,gRoq3,gRoq4,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density
+0,나비,A18,lying,1,[열D] colD,,"[열D] colD,[열C] colC","[열C] colC,[열B] colB","가만히 있는 사람과 (너무 정적인 포즈), 그리고 바람한결 불지않는것같은 배경 (나무가 곧음)",1.0,1,1.0,1,2.0,2
+1,rub,A18,lying,3,,,"[열A] colA,[열B] colB",[열A] colA,wind passing the grassland,2.0,2 |  it should be a perfect music for taking a afternoon nap,6.0,6 |  even its for napping but it's still day time,2.0,2 |  sleeping.....
+2,Daisy,A18,lying,2,,,"[열B] colB,[열C] colC,[열D] colD","[열B] colB,[열C] colC,[열D] colD","There is a human, and human is supposed to move even though the woman in this painting is just lying down.",2.0,2 |  The woman is only lying.,6.0,"6 |  It looks like a peaceful countryside, so I associate it with the country music, which, I think, has this pitch level.",6.0,6 |  Same reason with the one I gave for the pitch level. It feels like the sound of birds but not that high-pitched and dense.
+3,Doky,A18,lying,0,,,"[열C] colC,[열D] colD",,딱히 역동적 느낌이 들지 않음.,0.0,"0 |  역동적 움직임이 없으므로, 매우 느린 템포가 어울릴 것 같음. ",1.0,1 |  역동적 움직임이 부족하기 때문에 낮은 pitch가 어울림. 해당 그림에 높은 pitch는 그림에 대한 이입이 어려울 것 같음. ,2.0,2 |  음악의 밀도 역시 높지 않은 것이 어울릴 것으로 보여짐. 그림의 다이나믹함이 거의 없기 때문에. 
+4,chanpig,A18,lying,1,,,"[열C] colC,[열D] colD","[열D] colD,[열C] colC",밭정리를 하다가 누워서 ,2.0,2 |  주무시고계셔서 ,3.0,3 |  하늘을 보니 저녁보단 낮시간 처럼 밝라서 잠시 잠든느낌,5.0,5 |  잠시 잠든것같은 느낌 
+5,곤듀,A18,lying,5,,,"[열B] colB,[열A] colA,[열C] colC,[열D] colD","[열A] colA,[열B] colB,[열C] colC,[열D] colD","색감이 전체적으로 건조하며, 화풍의 영향으로 인해 식물들이 흔들리는 느낌을 받음",2.0,2 |  식물들이 흩날리는 역동성이 느껴지나 그림 전체에서 느껴지는 쓸쓸함에 의해 다소 느림 템포가 어울릴 것으로 보임,2.0,2 |  그림에서 전체적으로 우울하고 쓸쓸한 느낌이 들기 때문에 낮은 음이 어울린다고 생각함,1.0,1 |  그림에서 전체적으로 우울하고 쓸쓸한 느낌이 들기 때문에 낮은 밀도의 음이 어울린다고 생각함
+6,이인애,A18,lying,2,,,"[열A] colA,[열B] colB,[열C] colC,[열D] colD",,가로구조,2.0,2,3.0,3,5.0,5
+7,고고,A18,lying,1,,,"[열C] colC,[열D] colD","[열C] colC,[열B] colB",누워있는 모습,1.0,1,1.0,1,1.0,1
+8,경,A18,lying,0,,,"[열C] colC,[열D] colD","[열B] colB,[열C] colC",누워서 자는 모습에서 정적인 느낌이 남.,0.0,0 |  잠을 자는 정적인 느낌을 잘 드러냄.,0.0,0 |  잠을 자는 정적인 느낌을 잘 드러냄.,0.0,0 |  정적인 느낌을 잘 드러냄.
+9,yoni,A18,lying,2,[열D] colD,,[열D] colD,,인물의 표정 나무의 흔들림,3.0,3,5.0,5,5.0,5

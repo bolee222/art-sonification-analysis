@@ -1,0 +1,11 @@
+,name,artwork,poseType,sod,gRoq1,gRoq2,gRoq3,gRoq4,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density
+0,나비,A13,sit,2,,[열C] colC,"[열B] colB,[열C] colC","[열C] colC,[열B] colB","안정적이고, 이 상태로 2시간이 지나도록 있을 수 있을것같은 느낌.",1.0,1,2.0,2,2.0,2
+1,rub,A13,sit,1,,,,[열D] colD,I assumed there should be a interaction between character and the environments,2.0,2 |  she looking bored and peaceful ,4.0,4 |  it's neither energetic nor holy,4.0,4 |  chilling vibe for me
+2,Daisy,A13,sit,5,,"[열A] colA,[열B] colB,[열C] colC,[열D] colD","[열A] colA,[열B] colB,[열C] colC,[열D] colD",,"When there are humans, I tend to suppose that they are active and moving. However, in this painting, the girl looks idle. The grass behind her looks more dynamic to me.",3.0,3 |  The picture looks very calm.,4.0,4 |  I think the color scheme of the whole painting makes me think so.,4.0,"4 |  The scene looks very calming, so there should not be any bustle."
+3,Doky,A13,sit,0,,,[열C] colC,,인물의 움직임이 없기 때문에 역동적인 느낌이 들지 않음,0.0,"0 |  그림의 역동성이 느껴지지 않고, 인물의 움직임도 쉼에 가깝기 때문에 아주 느린 템포의 곡이 어울림. ",1.0,1 |  인물을 둘러싼 배경이 어둡고 역동성도 없기 때문에 낮은 음이 해당 그림과 어우러질 것 같음. ,2.0,2 |  음악의 밀도 역시 역동성이 떨어지기 때문에 낮아야 더 이상적임. 딱히 음악의 역동적인 기교가 필요가 없을 것 같고 오히려 밀도가 높으면 그림에 대한 이입이 떨어질 것 같음. 
+4,chanpig,A13,sit,2,,[열B] colB,[열B] colB,,앉아있어서…?  풀들도 날리지않음 ,3.0,3 |  바람도 안불어서 멈춰있는 느낌,1.0,1 |  음이 필요할까싶을 정도로 지루해보임 ,1.0,1 |  앉아있고 움직임이 없어보여서
+5,곤듀,A13,sit,1,"[열A] colA,[열B] colB,[열C] colC,[열D] colD",,,,그림에서 전체적으로 역동적임이 느껴지지 않음. 단지 하늘에 떠있는 구름만이 둥둥떠다니는 장면이 연상됨,3.0,3 |  전체적으로 역동적임이 느껴지지 않으나 인물의 표정에 의해 음악의 템포가 매우 느림은 확실히 아님.  매우 느림 - 보통 사이에서 보통에 조금 더 치우친 템포,8.0,8 |  그림에서 전체적인 장면보다는 인물의 표정이 눈에 들어옴 표정에서 다소 엉뚱함을 느껴짐에 따라 다소 높은 음이 연상됨,5.0,5 |  위의 세팅에서 보통의 밀도가 적합하다고 생각됨
+6,이인애,A13,sit,0,,,[열C] colC,,정적인느낌,1.0,1,2.0,2,2.0,2
+7,고고,A13,sit,1,,[열C] colC,[열C] colC,,앉아있는모습,1.0,1,1.0,1,1.0,1
+8,경,A13,sit,0,,,"[열C] colC,[열B] colB",[열C] colC,가만히 있는 포즈로 역동적이지 않은 느낌을 잘 드러냄.,1.0,1 |  가만히 있고 지루하지만 잠을 자는 정도로 가만히 있는 것은 아닌 역동성을 잘 드러냄.,2.0,"2 |  정적인 느낌, 무난하고 평화로운 분위기를 잘 드러냄.",2.0,"2 |  정적인 느낌, 무난하고 평화로운 분위기를 잘 드러냄."
+9,yoni,A13,sit,3,"[열A] colA,[열B] colB,[열C] colC,[열D] colD",,[열C] colC,[열C] colC,"하늘의 구름, 인물의 자세",3.0,3 |  전반적인 풍경은 고요함,5.0,5 |  평온한느낌,3.0,3
