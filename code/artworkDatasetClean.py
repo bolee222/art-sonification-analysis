@@ -6,6 +6,47 @@ import glob
 import os
 from poseDictionary import poseDic 
 
+def gridRowtoNum(row):
+    row_num = [0,0,0,0]
+    
+    if (type(row) == str):
+        if "[열A] colA" in row:
+            row_num[0] = 1
+        if "[열B] colB" in row:
+            row_num[1] = 1
+        if "[열C] colC" in row:
+            row_num[2] = 1
+        if "[열D] colD" in row:
+            row_num[3] = 1 
+    else:
+        row_num = [0,0,0,0]
+    return row_num 
+
+
+def heatmapAnalysis(df):
+    df["gRoq1_mat"]=None
+    df["gRoq2_mat"]=None
+    df["gRoq3_mat"]=None
+    df["gRoq4_mat"]=None
+
+    for rowNum in range(len(df)):
+        gRoq1_ = df.iloc[rowNum]['gRoq1']
+        gRoq1_mat = gridRowtoNum(gRoq1_)
+        df.at[rowNum,'gRoq1_mat'] = gRoq1_mat
+
+        gRoq2_ = df.iloc[rowNum]['gRoq2']
+        gRoq2_mat = gridRowtoNum(gRoq2_)
+        df.at[rowNum,'gRoq2_mat'] = gRoq2_mat
+
+        gRoq3_ = df.iloc[rowNum]['gRoq3']
+        gRoq3_mat = gridRowtoNum(gRoq3_)
+        df.at[rowNum,'gRoq3_mat'] = gRoq3_mat
+
+        gRoq4_ = df.iloc[rowNum]['gRoq4']
+        gRoq4_mat = gridRowtoNum(gRoq4_)
+        df.at[rowNum,'gRoq4_mat'] = gRoq4_mat
+    return df
+
 
 def transformCSV(filePath):
     #'../dataset/artworks/A11-Table 1.csv'
@@ -35,23 +76,27 @@ def transformCSV(filePath):
 
     df["poseType"] = df["artwork"].map(poseDic)
 
-    df = df[["name", "artwork", "poseType", "sod","gRoq1", "gRoq2", "gRoq3", "gRoq4", "reasons", "tempo_score", "tempo", "pitch_score","pitch", "density_score", "density"]]
+    heatmapAnalysis(df)
 
-    print(df.columns)
+    df = df[["name", "artwork", "poseType", "sod", "gRoq1_mat", "gRoq2_mat", "gRoq3_mat", "gRoq4_mat", "reasons", "tempo_score", "tempo", "pitch_score","pitch", "density_score", "density"]]
+
+    #print(df.columns)
     
     df.to_csv('../dataset_cleanUp/artworks/' + artworkCode + '.csv')
 
-transformCSV('../dataset/artworks/A1-Table 1.csv')
-transformCSV('../dataset/artworks/A2-Table 1.csv')
+#transformCSV('../dataset/artworks/A1-Table 1.csv')
+#transformCSV('../dataset/artworks/A2-Table 1.csv')
 
 
 def cleanDataset():
     for i in range(0,21):
         number = i+1
-        print(number)
+        #print(number)
         filePath = '../dataset/artworks/A' + str(number) + '-Table 1.csv'
-        print(filePath)
+        #print(filePath)
         transformCSV(filePath)
+
+
 
 def concatDataset():
     path = r'../dataset_cleanUp/artworks'          
@@ -60,6 +105,7 @@ def concatDataset():
     df_from_each_file = (pd.read_csv(f) for f in all_files)
     df_concat = pd.concat(df_from_each_file, ignore_index=True)
     df_concat.to_csv('../dataset_cleanUp/' + 'Artworks_concat.csv')
+    print("Concat Dataset Generated")
     
 
 cleanDataset()
