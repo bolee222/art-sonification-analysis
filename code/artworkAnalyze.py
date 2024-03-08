@@ -4,14 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib.image as mpimg 
 
- 
-
-df = pd.read_csv('../dataset_cleanUp/Artworks_concat.csv')
-
-df['sort'] = df['artwork'].str.extract('(\d+)', expand=False).astype(int)
-df.sort_values('sort',inplace=True, ascending=True)
-df = df.drop('sort', axis=1)
-
 
 def sod_graph():
     mean = df.groupby('artwork').sod.mean().reset_index()
@@ -38,11 +30,6 @@ def sod_graph():
     ax.set_ylabel("Sense of Dynamic Score")
     sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
     plt.savefig('../plots/sod_graph.png', bbox_inches='tight')
-
-    
-sod_graph()
-
-plt.figure()
 
 def tempo_graph():
     df_new = df[['sod', 'tempo_score']].value_counts().reset_index(name='count')
@@ -73,13 +60,6 @@ def density_graph():
     #ax.set_xlabel("Density Level")
     #ax.set_ylabel("Sense of Dynamic Score")
     plt.savefig('../plots/density_graph.png', bbox_inches='tight')
-
-
-#tempo_graph()
-#pitch_graph()
-#density_graph()
-
-
 
 def parsing(grid):
     grid = grid.replace('[','').replace(']','').split(',')
@@ -120,4 +100,23 @@ def grid_heatmap(target_artwork):
     plt.show()
 
 
-grid_heatmap("A1")    
+if __name__ == '__main__':
+    df = pd.read_csv('../dataset_cleanUp/Artworks_concat.csv')
+
+    df['sort'] = df['artwork'].str.extract('(\d+)', expand=False).astype(int)
+    df.sort_values('sort',inplace=True, ascending=True)
+    df = df.drop('sort', axis=1)
+        
+    sod_graph()
+    plt.figure()
+
+    grid_heatmap("A1")    
+
+
+#tempo_graph()
+#pitch_graph()
+#density_graph()
+
+
+
+
