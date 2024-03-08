@@ -1,11 +1,16 @@
 ,name,artwork,poseType,sod,gRoq1,gRoq2,gRoq3,gRoq4,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density
-0,나비,A19,standing,0,,"[열B] colB,[열C] colC","[열C] colC,[열B] colB",,너무 평온한 자세. 흰 바탕. 무표정,0.0,0,2.0,2,1.0,1
-1,rub,A19,standing,6,,"[열B] colB,[열C] colC,[열A] colA,[열D] colD","[열A] colA,[열D] colD",,her face and the blur wall make me feel like moving,3.0,3 |  it should be a slow tempo vibe after a mess for me,2.0,2 |  maybe should sounds a bit tragic or sad?,2.0,2 |  same reason above
-2,Daisy,A19,standing,2,,"[열B] colB,[열C] colC","[열B] colB,[열C] colC","[열B] colB,[열C] colC,[열A] colA,[열D] colD","Only the woman in the painting can move around, which then leads to movements of objects on the floor.",2.0,"2 |  If there is movement, it would be very subtle.",2.0,2 |  The overall atmosphere is a bit gloomy.,2.0,2 |  Same reason with the question about the pitch.
-3,Doky,A19,standing,0,,"[열B] colB,[열C] colC","[열B] colB,[열C] colC",,인물이 주는 역동적 느낌은 전혀 없음.,2.0,2 |  하얗고 잔잔한 분위기와 정적인 느낌까지 나므로 빠르지 않은 템포가 어울림.,4.0,4 |  뭔가 미묘한 분위기로 인하여 보통이나 조금 낮은 핏치의 음이 연상됨. ,2.0,2 |  낮은 밀도의 음악이 잔잔하고 정적인 그림의 느낌과 어울림.
-4,chanpig,A19,standing,2,,"[열B] colB,[열C] colC","[열B] colB,[열C] colC","[열B] colB,[열C] colC",사람이 걸어서 드레스가 뒤로 조금 끌린자국,2.0,2 |  가만히 서있어서 ,3.0,3 |  색감이 좀 칙칙해서 ,3.0,3 |  바닥에 동물 모피? 가 있어서 긴장감이 있음 
-5,곤듀,A19,standing,0,,[열B] colB,,,"인물, 배경, 표현 모두 역동적인 느낌이 들지 않음",2.0,2 |  상당히 정적으로 느껴지는 그림으로 느린 템포의 음악이 어울릴 것으로 생각됨,2.0,2 |  상당히 정적으로 느껴지는 그림으로 높은 피치의 음악은 어울리지 않을 것으로 생각됨,0.0,0 |  상당히 정적으로 느껴지는 그림으로 낮은 밀도의 음을 길게 늘어 트리는 형식의 음악이 어울릴 것으로 생각됨.
-6,이인애,A19,standing,1,"[열A] colA,[열D] colD,[열B] colB,[열C] colC","[열A] colA,[열D] colD,[열B] colB,[열C] colC","[열A] colA,[열D] colD,[열B] colB,[열C] colC",,배경선과 인물이 평행구조,3.0,3,2.0,2,6.0,6
-7,고고,A19,standing,0,,"[열B] colB,[열C] colC","[열C] colC,[열B] colB","[열B] colB,[열C] colC",제자리에 서있음,0.0,0,0.0,0,0.0,0
-8,경,A19,standing,1,,"[열B] colB,[열C] colC",[열C] colC,[열B] colB,가만히 서 있는 정적인 분위기를 느낄 수 있음.,1.0,1 |  가만히 서 있는 정적인 분위기를 잘 나타냄.,2.0,2 |  정적인 분위기를 잘 나타냄.,1.0,1 |  가만히 서 있는 정적인 분위기를 잘 드러냄.
-9,yoni,A19,standing,5,,,,"[열A] colA,[열B] colB,[열C] colC,[열D] colD",인물의 옷과 벽고ㅏ 대비되는 바닥  ,3.0,3,3.0,3,7.0,7
+0,나비,A19,standing,0.0,,"[열B] colB,[열C] colC","[열C] colC,[열B] colB",,너무 평온한 자세. 흰 바탕. 무표정,0.0,0,2.0,2,1.0,1
+1,rub,A19,standing,6.0,,"[열B] colB,[열C] colC,[열A] colA,[열D] colD","[열A] colA,[열D] colD",,her face and the blur wall make me feel like moving,3.0,3 |  it should be a slow tempo vibe after a mess for me,2.0,2 |  maybe should sounds a bit tragic or sad?,2.0,2 |  same reason above
+2,Daisy,A19,standing,2.0,,"[열B] colB,[열C] colC","[열B] colB,[열C] colC","[열B] colB,[열C] colC,[열A] colA,[열D] colD","Only the woman in the painting can move around, which then leads to movements of objects on the floor.",2.0,"2 |  If there is movement, it would be very subtle.",2.0,2 |  The overall atmosphere is a bit gloomy.,2.0,2 |  Same reason with the question about the pitch.
+3,Doky,A19,standing,0.0,,"[열B] colB,[열C] colC","[열B] colB,[열C] colC",,인물이 주는 역동적 느낌은 전혀 없음.,2.0,2 |  하얗고 잔잔한 분위기와 정적인 느낌까지 나므로 빠르지 않은 템포가 어울림.,4.0,4 |  뭔가 미묘한 분위기로 인하여 보통이나 조금 낮은 핏치의 음이 연상됨. ,2.0,2 |  낮은 밀도의 음악이 잔잔하고 정적인 그림의 느낌과 어울림.
+4,chanpig,A19,standing,2.0,,"[열B] colB,[열C] colC","[열B] colB,[열C] colC","[열B] colB,[열C] colC",사람이 걸어서 드레스가 뒤로 조금 끌린자국,2.0,2 |  가만히 서있어서 ,3.0,3 |  색감이 좀 칙칙해서 ,3.0,3 |  바닥에 동물 모피? 가 있어서 긴장감이 있음 
+5,곤듀,A19,standing,0.0,,[열B] colB,,,"인물, 배경, 표현 모두 역동적인 느낌이 들지 않음",2.0,2 |  상당히 정적으로 느껴지는 그림으로 느린 템포의 음악이 어울릴 것으로 생각됨,2.0,2 |  상당히 정적으로 느껴지는 그림으로 높은 피치의 음악은 어울리지 않을 것으로 생각됨,0.0,0 |  상당히 정적으로 느껴지는 그림으로 낮은 밀도의 음을 길게 늘어 트리는 형식의 음악이 어울릴 것으로 생각됨.
+6,이인애,A19,standing,1.0,"[열A] colA,[열D] colD,[열B] colB,[열C] colC","[열A] colA,[열D] colD,[열B] colB,[열C] colC","[열A] colA,[열D] colD,[열B] colB,[열C] colC",,배경선과 인물이 평행구조,3.0,3,2.0,2,6.0,6
+7,고고,A19,standing,0.0,,"[열B] colB,[열C] colC","[열C] colC,[열B] colB","[열B] colB,[열C] colC",제자리에 서있음,0.0,0,0.0,0,0.0,0
+8,경,A19,standing,1.0,,"[열B] colB,[열C] colC",[열C] colC,[열B] colB,가만히 서 있는 정적인 분위기를 느낄 수 있음.,1.0,1 |  가만히 서 있는 정적인 분위기를 잘 나타냄.,2.0,2 |  정적인 분위기를 잘 나타냄.,1.0,1 |  가만히 서 있는 정적인 분위기를 잘 드러냄.
+9,yoni,A19,standing,5.0,,,,"[열A] colA,[열B] colB,[열C] colC,[열D] colD",인물의 옷과 벽고ㅏ 대비되는 바닥  ,3.0,3,3.0,3,7.0,7
+10,밍경댕,A19,standing,3.0,,"[열B] colB,[열C] colC","[열C] colC,[열B] colB","[열B] colB,[열C] colC,[열A] colA,[열D] colD",바닥에 있는 동물 사체들과 여인의 표정이 너무 대비가 돼 오히려 조금 역동적인 느낌을 줌.,1.0,1 |  차갑고 차분한 음악이 표현 될 것 같음 ,9.0,9 |  높은 음으로 여인의 무관심함을 표현할 것 같음.,1.0,1 |  낮은 밀도로 여인의 공허함을 표현
+11,배뀽,A19,standing,0.0,,,,[열B] colB,여자 표정이 너무 우울하고 색채도 어두워서 역동성이 없음,2.0,2 |  우울하다 ,3.0,3 |  귀를 때리는 소리는 아닌 것 같음,7.0,7 |  스산한 분위기를 나타내면 좋을 것 같다 
+12,미지,A19,standing,1.0,,"[열B] colB,[열C] colC","[열B] colB,[열C] colC","[열A] colA,[열B] colB,[열C] colC,[열D] colD",폐허같은 배경과 머리카락 옷의 움직임이 없는 모습이 정적으로 느껴짐,0.0,0 | 폐허의 느낌을 살리기위해,1.0,1 | 음울한 분위기의 낮은 음,1.0,1 | 밀도가 높을수록 풍요로운 느낌을 줄 수 있으므로 공허한 느낌은 낮은 밀도의 음악으로 표현
+13,boldmas,A19,standing,2.0,,"[열B] colB,[열C] colC","[열C] colC,[열B] colB","[열B] colB,[열C] colC",The subject of the painting is standing there,3.0,"3 | The subject is standing in a neutral position, wearing white, and not much movement is happening.",5.0,5 | the colors and the character are very neutral,1.0,1 | not much is going on in terms of color and movements
+14,jellybelly,A19,standing,,,,,,,,,,,,
