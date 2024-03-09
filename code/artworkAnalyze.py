@@ -36,6 +36,7 @@ def tempo_graph():
     print(df_new.head(4))
     ax = plt.figure(figsize = (4,4))
     ax = sns.relplot(data=df_new, x="sod", y="tempo_score",  size = 'count', hue="count")
+    ax = sns.jointplot(x="sod", y="tempo_score", data=df_new, kind="kde", color="grey")
 
     #ax.set_xlabel("Tempo Level")
     #ax.set_ylabel("Sense of Dynamic Score")
@@ -97,7 +98,7 @@ def grid_heatmap(target_artwork):
           extent = ax.get_xlim() + ax.get_ylim(),
           zorder = 1) #put the map under the heatmap
 
-    plt.show()
+    #plt.show()
 
 
 if __name__ == '__main__':
@@ -108,12 +109,12 @@ if __name__ == '__main__':
     df = df.drop('sort', axis=1)
         
     sod_graph()
-    plt.figure()
+    #plt.figure()
 
     grid_heatmap("A1")    
 
 
-#tempo_graph()
+tempo_graph()
 #pitch_graph()
 #density_graph()
 
