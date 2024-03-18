@@ -1,0 +1,4 @@
+,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
+1,Seong Ho,16,lying,0,"[0,0,0,0]","[0,0,0,0]","[0,1,1,0]","[0,0,0,0]",자고있는 남성이 정적임.,0,nan,5,  평범한 색채감.,2,  자연의 느낌이 같이 표현되었으면 함.,자연이 주는 편안함.
+2,6400dc9af341e8a575a457f6,16,lying,5,"[0,0,0,0]","[0,0,0,0]","[1,1,1,0]","[0,0,0,0]","variation from background, breaks it up",2,nan,5,nan,5,nan,nan
+3,6400dc9af341e8a575a457f6,16,lying,5,"[0,0,0,0]","[0,0,0,0]","[1,1,1,0]","[0,0,0,0]","variation from background, breaks it up",2,nan,5,nan,5,nan,nan

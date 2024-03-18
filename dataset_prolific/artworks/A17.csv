@@ -1,0 +1,4 @@
+,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
+1,Seong Ho,17,lying,0,"[0,0,0,0]","[0,0,0,0]","[0,0,1,1]","[0,1,1,1]","사막이 주는 적막함, 쉬고 있는 사람들, 멈춰있는 바퀴 달린 물체.",0,  고요한 느낌이 표현되었으면 함.,3,  쉬는 느낌이 표현되었으면 함. 피치가 높으면 스트레스 받을 것 같음.,0,  쉬는 느낌 표현 원함.,적막함.
+2,6400dc9af341e8a575a457f6,17,lying,9,"[0,0,0,0]","[0,1,1,0]","[0,0,1,1]","[0,1,1,1]",variation from the background,2,nan,3,nan,6,nan,nan
+3,6400dc9af341e8a575a457f6,17,lying,9,"[0,0,0,0]","[0,1,1,0]","[0,0,1,1]","[0,1,1,1]",variation from the background,2,nan,3,nan,6,nan,nan

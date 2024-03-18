@@ -1,0 +1,4 @@
+,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
+1,Seong Ho,18,lying,0,"[0,0,0,0]","[0,0,0,0]","[0,0,1,1]","[0,1,1,0]",일 그만하고 쉬고싶은 여자 느낌이 정적임.,0,  일 안하고 늘어지고 싶은 느낌 표현 원함.,1,nan,2,  일은 해야 하는데 쉬는 느낌이라 많이 Sparse 는 아니었으면 함.,농땡이치는 느낌.
+2,6400dc9af341e8a575a457f6,18,lying,4,"[0,0,0,1]","[1,1,1,1]","[0,0,1,1]","[0,1,1,0]",both the buildings in the background and the person laying in the grass stand out equally,1,nan,3,nan,3,nan,nan
+3,6400dc9af341e8a575a457f6,18,lying,4,"[0,0,0,1]","[1,1,1,1]","[0,0,1,1]","[0,1,1,0]",both the buildings in the background and the person laying in the grass stand out equally,1,nan,3,nan,3,nan,nan

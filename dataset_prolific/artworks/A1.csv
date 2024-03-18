@@ -1,0 +1,4 @@
+,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
+1,Seong Ho,1,running,10,"[0,0,0,0]","[0,1,1,0]","[1,1,1,1]","[0,0,0,0]","달리는 아이들, 거센 파도",8,  달리는 느낌을 표현 담을 수 있어서,4,  평온한 느낌이 들었으면 함. 높으면 정신 사나움.,10,  달리는 아이와 파도가 같이 빠르게 표현되려면 Density 가 높아야 할 것 같음.,따뜻함.
+2,6400dc9af341e8a575a457f6,1,running,7,"[0,0,0,0]","[1,1,1,1]","[1,1,1,1]","[1,0,0,0]",these sections indicate movement in the picture,7,nan,8,nan,6,nan,nan
+3,6400dc9af341e8a575a457f6,1,running,7,"[0,0,0,0]","[1,1,1,1]","[1,1,1,1]","[1,0,0,0]",these sections indicate movement in the picture,7,nan,8,nan,6,nan,nan

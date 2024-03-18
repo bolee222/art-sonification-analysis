@@ -1,0 +1,4 @@
+,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
+1,Seong Ho,21,satnding,0,"[0,0,0,0]","[0,1,0,0]","[0,1,0,0]","[0,1,0,0]",서 있는 모습이 정적으로 느껴짐.,1,nan,10,  전체적으로 붉은색 계열의 느낌이 피치가 높은 음악과 잘 어울릴 것 같음.,2,"  정적이지만, 몇 가지 구조물이 존재해서 표현되었으면 함.",따뜻함
+2,6400dc9af341e8a575a457f6,21,satnding,2,"[0,0,0,0]","[0,1,1,0]","[1,1,1,1]","[1,1,1,1]","since most of the image is in the same color, just different shades, the only dynamism I detect is the individual in the image that breaks up the background",1,nan,6,nan,3,nan,nan
+3,6400dc9af341e8a575a457f6,21,satnding,2,"[0,0,0,0]","[0,1,1,0]","[1,1,1,1]","[1,1,1,1]","since most of the image is in the same color, just different shades, the only dynamism I detect is the individual in the image that breaks up the background",1,nan,6,nan,3,nan,nan

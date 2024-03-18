@@ -1,0 +1,4 @@
+,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
+1,Seong Ho,14,sit,3,"[0,0,0,0]","[0,0,1,0]","[0,1,1,0]","[1,1,1,1]",앉아있는 여성 + 바람 부는 느낌 = 3점 (앉아 있는 여성이 주는 정적인 느낌이 더 큼),2,  편안히 쉬는 느낌 표현 위해.,6,nan,1,"  선은 많지만, 앉아서 편히 쉬는 느낌을 표현하려면 sparse 해야 함. 앉아서 쉬는 느낌이 더 표현되었으면 함.",기묘함.
+2,6400dc9af341e8a575a457f6,14,sit,8,"[0,0,0,1]","[0,0,1,1]","[0,1,1,0]","[0,0,0,0]",the many color variants,5,nan,7,nan,9,nan,nan
+3,6400dc9af341e8a575a457f6,14,sit,8,"[0,0,0,1]","[0,0,1,1]","[0,1,1,0]","[0,0,0,0]",the many color variants,5,nan,7,nan,9,nan,nan

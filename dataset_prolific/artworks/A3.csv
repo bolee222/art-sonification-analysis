@@ -1,0 +1,4 @@
+,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
+1,Seong Ho,3,running,9,"[0,0,0,0]","[0,0,1,1]","[0,1,1,0]","[0,1,1,0]","달리는 아이들, 물결이 침. 역동적 임.",7,"  평온한 느낌이 났으면 해서, 너무 빠르진 않았으면 함.",8,  주황색 느낌,7,"  평온한 느낌이 같이 있어서, 너무 Dense 하지 않았으면 함.",평온함. 회상을 표현한 것 같은 작화?
+2,6400dc9af341e8a575a457f6,3,running,6,"[0,0,0,0]","[0,1,1,1]","[0,1,1,0]","[0,1,1,0]",indicates movement,6,nan,8,nan,3,nan,nan
+3,6400dc9af341e8a575a457f6,3,running,6,"[0,0,0,0]","[0,1,1,1]","[0,1,1,0]","[0,1,1,0]",indicates movement,6,nan,8,nan,3,nan,nan

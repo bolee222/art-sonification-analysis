@@ -1,0 +1,4 @@
+,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
+1,Seong Ho,11,fight,10,"[0,0,0,0]","[1,1,1,1]","[0,1,1,1]","[0,1,1,0]","싸우는 사람들, 물결 무늬 패턴이 역동적임.",9,nan,7,  고동색 느낌,10,  싸우는 사람과 물결 무늬가 하나하나 표현되었으면 해서.,nan
+2,6400dc9af341e8a575a457f6,11,fight,8,"[0,1,1,1]","[0,1,1,0]","[0,1,1,0]","[1,1,1,1]",features multiple figures moving synchronously,5,nan,2,nan,7,nan,nan
+3,6400dc9af341e8a575a457f6,11,fight,8,"[0,1,1,1]","[0,1,1,0]","[0,1,1,0]","[1,1,1,1]",features multiple figures moving synchronously,5,nan,2,nan,7,nan,nan

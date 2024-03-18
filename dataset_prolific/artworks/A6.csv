@@ -1,0 +1,4 @@
+,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
+1,Seong Ho,6,dancing,8,"[0,0,0,0]","[0,1,1,1]","[1,1,1,1]","[0,0,1,0]","춤추는 여자, 여자의 옷깃에 날리는 바람을 표현한 점이 역동적임.",8,  적당히 빨랐으면 함.,6,nan,7,"  춤을 추고 있는 여성이 한명이고, 배경이 단조로움.",약간의 화려함.
+2,6400dc9af341e8a575a457f6,6,dancing,5,"[0,0,1,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,0]",indicates person moving,9,nan,8,nan,10,nan,nan
+3,6400dc9af341e8a575a457f6,6,dancing,5,"[0,0,1,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,0]",indicates person moving,9,nan,8,nan,10,nan,nan
