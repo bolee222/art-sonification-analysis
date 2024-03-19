@@ -1,17 +1,17 @@
 ,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
-1,Seong Ho,9,ballet,10,"[0,0,0,0]","[1,0,1,1]","[0,1,1,1]","[0,0,1,0]",어려운 발레동작이 역동적인 느낌을 줌.,10,  클라이맥스 같은 느낌 표현 원함.,7,nan,9,"  여러명의 발레리나 중 에이스 한명이 두드러 지는데, 이를 density 로 표현 했으면 함.",연극같은 느낌.
-2,6400dc9af341e8a575a457f6,9,ballet,8,"[0,0,0,0]","[1,0,1,1]","[1,1,1,1]","[0,0,1,0]",they put motion to the image,6,nan,9,nan,9,nan,nan
-3,6400dc9af341e8a575a457f6,9,ballet,8,"[0,0,0,0]","[1,0,1,1]","[1,1,1,1]","[0,0,1,0]",they put motion to the image,6,nan,9,nan,9,nan,nan
-4,5e4875f3110b3730eefa32a1,9,ballet,7,"[0,0,0,0]","[0,0,0,0]","[0,0,1,0]","[0,0,0,0]",the colours among the mainly muted painting,4,nan,4,nan,5,nan,nan
-5,5e909d9ac9ce2503b2650797,9,ballet,5,"[0,0,0,0]","[0,0,1,1]","[0,0,1,1]","[0,0,1,0]",her pose suggests a lot,6,nan,5,nan,4,nan,nan
-6,5fc00a11268eb941e7d8b066,9,ballet,4,"[0,0,0,0]","[0,0,0,0]","[0,1,1,0]","[0,0,0,0]",The bouquet of flowers is especially eye-catching.,7,nan,8,nan,4,nan,nan
-7,5b295f60bbd4880001117976,9,ballet,6,"[0,0,0,0]","[1,0,1,0]","[1,0,1,0]","[0,0,1,0]",nan,7,nan,7,nan,7,nan,nan
-8,630100561dc47fd83f5b4745,9,ballet,10,"[0,0,0,0]","[1,1,0,1]","[0,1,1,1]","[0,0,1,0]",Women dancing together with arm pointed upwards. ,6,nan,5,nan,4,nan,nan
-9,5f7959d0b6791155e6932dd1,9,ballet,6,"[0,0,0,0]","[0,0,1,0]","[0,1,1,1]","[0,0,1,0]",The main dancer is what bring dynamism.,7,  The high and bright dance of the picture should be mimic in the faster tempo of the music.,7,  The femininity of the picture should be shown in the higher pitch of the music.,3,  The ease of a ballet performance should also be shown in the lightness of the music.,The music should be complicated like a ballet performance but also light in movement.
-10,5967e9a831394d0001abdb3f,9,ballet,5,"[0,0,0,0]","[0,0,1,0]","[0,0,1,0]","[0,0,1,0]","The figure is not dancing, but taking an encore",3,nan,3,nan,2,nan,nan
-11,657421f9661ce9a8cd7482d1,9,ballet,10,"[1,1,1,1]","[1,1,1,1]","[1,1,1,0]","[1,1,1,1]",The area selected beautify the art work,5,  Moderate tempo music is good for the art work ,5,  Moderate pitch music is good for the art work ,5,  Moderate density music is good for the art work ,nan
-12,5e56590389b924000c184113,9,ballet,9,"[0,0,0,0]","[0,0,1,1]","[0,1,1,1]","[0,0,1,0]","Movement, dance, wonder and praise",8,nan,5,nan,9,nan,"Rich, lush and full sound "
-13,65c4bfbc22bc351322c66e32,9,ballet,6,"[0,0,1,0]","[0,0,0,0]","[0,1,0,0]","[0,1,1,0]",They are very beautiful,3,nan,2,nan,6,nan,nan
-14,63f77942d3cad20e65a411a9,9,ballet,7,"[0,0,0,0]","[1,1,1,1]","[0,0,1,1]","[0,0,1,0]",the dancing women,7,nan,8,nan,6,nan,nan
-15,5c584d2040378900013b6fb9,9,ballet,6,"[0,0,0,0]","[1,1,1,1]","[0,1,1,1]","[0,0,1,0]",A slow dance is being done with a group of dancers entering to the side,3,nan,1,nan,3,nan,nan
-16,613e454dca2db9fcef1f8e8d,9,ballet,8,"[0,0,0,0]","[1,0,1,1]","[0,0,1,0]","[0,0,1,0]","Arms and legs oustretched, wearing ballet costume on a stage, indicating movement",6,nan,7,nan,8,  as if recieving applause,nan
+1,Seong Ho,A9,ballet,10,"[0,0,0,0]","[1,0,1,1]","[0,1,1,1]","[0,0,1,0]",어려운 발레동작이 역동적인 느낌을 줌.,10,  클라이맥스 같은 느낌 표현 원함.,7,nan,9,"  여러명의 발레리나 중 에이스 한명이 두드러 지는데, 이를 density 로 표현 했으면 함.",연극같은 느낌.
+2,6400dc9af341e8a575a457f6,A9,ballet,8,"[0,0,0,0]","[1,0,1,1]","[1,1,1,1]","[0,0,1,0]",they put motion to the image,6,nan,9,nan,9,nan,nan
+3,6400dc9af341e8a575a457f6,A9,ballet,8,"[0,0,0,0]","[1,0,1,1]","[1,1,1,1]","[0,0,1,0]",they put motion to the image,6,nan,9,nan,9,nan,nan
+4,5e4875f3110b3730eefa32a1,A9,ballet,7,"[0,0,0,0]","[0,0,0,0]","[0,0,1,0]","[0,0,0,0]",the colours among the mainly muted painting,4,nan,4,nan,5,nan,nan
+5,5e909d9ac9ce2503b2650797,A9,ballet,5,"[0,0,0,0]","[0,0,1,1]","[0,0,1,1]","[0,0,1,0]",her pose suggests a lot,6,nan,5,nan,4,nan,nan
+6,5fc00a11268eb941e7d8b066,A9,ballet,4,"[0,0,0,0]","[0,0,0,0]","[0,1,1,0]","[0,0,0,0]",The bouquet of flowers is especially eye-catching.,7,nan,8,nan,4,nan,nan
+7,5b295f60bbd4880001117976,A9,ballet,6,"[0,0,0,0]","[1,0,1,0]","[1,0,1,0]","[0,0,1,0]",nan,7,nan,7,nan,7,nan,nan
+8,630100561dc47fd83f5b4745,A9,ballet,10,"[0,0,0,0]","[1,1,0,1]","[0,1,1,1]","[0,0,1,0]",Women dancing together with arm pointed upwards. ,6,nan,5,nan,4,nan,nan
+9,5f7959d0b6791155e6932dd1,A9,ballet,6,"[0,0,0,0]","[0,0,1,0]","[0,1,1,1]","[0,0,1,0]",The main dancer is what bring dynamism.,7,  The high and bright dance of the picture should be mimic in the faster tempo of the music.,7,  The femininity of the picture should be shown in the higher pitch of the music.,3,  The ease of a ballet performance should also be shown in the lightness of the music.,The music should be complicated like a ballet performance but also light in movement.
+10,5967e9a831394d0001abdb3f,A9,ballet,5,"[0,0,0,0]","[0,0,1,0]","[0,0,1,0]","[0,0,1,0]","The figure is not dancing, but taking an encore",3,nan,3,nan,2,nan,nan
+11,657421f9661ce9a8cd7482d1,A9,ballet,10,"[1,1,1,1]","[1,1,1,1]","[1,1,1,0]","[1,1,1,1]",The area selected beautify the art work,5,  Moderate tempo music is good for the art work ,5,  Moderate pitch music is good for the art work ,5,  Moderate density music is good for the art work ,nan
+12,5e56590389b924000c184113,A9,ballet,9,"[0,0,0,0]","[0,0,1,1]","[0,1,1,1]","[0,0,1,0]","Movement, dance, wonder and praise",8,nan,5,nan,9,nan,"Rich, lush and full sound "
+13,65c4bfbc22bc351322c66e32,A9,ballet,6,"[0,0,1,0]","[0,0,0,0]","[0,1,0,0]","[0,1,1,0]",They are very beautiful,3,nan,2,nan,6,nan,nan
+14,63f77942d3cad20e65a411a9,A9,ballet,7,"[0,0,0,0]","[1,1,1,1]","[0,0,1,1]","[0,0,1,0]",the dancing women,7,nan,8,nan,6,nan,nan
+15,5c584d2040378900013b6fb9,A9,ballet,6,"[0,0,0,0]","[1,1,1,1]","[0,1,1,1]","[0,0,1,0]",A slow dance is being done with a group of dancers entering to the side,3,nan,1,nan,3,nan,nan
+16,613e454dca2db9fcef1f8e8d,A9,ballet,8,"[0,0,0,0]","[1,0,1,1]","[0,0,1,0]","[0,0,1,0]","Arms and legs oustretched, wearing ballet costume on a stage, indicating movement",6,nan,7,nan,8,  as if recieving applause,nan

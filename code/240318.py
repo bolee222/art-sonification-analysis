@@ -81,7 +81,7 @@ def parseMain(pid, artworks):
         percept = f"{artworks[k+9]}" 
         row += [percept]
 
-        row = [i, pid, ao, at, sod] + row
+        row = [i, pid, f'A{ao}', at, sod] + row
         
         # ret = f"{i}, {pid}, {ao}, {at}, {sod}, {map}, {map_r}, {', '.join(music_component)}, {percept}\n"
         # print(fname, ret)

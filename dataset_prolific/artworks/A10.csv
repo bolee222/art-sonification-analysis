@@ -1,17 +1,17 @@
 ,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
-1,Seong Ho,10,fight,10,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[1,0,0,1]","죽일 듯이 싸우는 남자 둘, 흔들리는 랜턴이 역동적임.",8,  긴장감 있게 빨랐으면 함.,3,  남성적인 느낌 표현 원함.,10,"  널부러진 물체, 날카로운 칼, 힘겨루기 하는 남자들 과 같은 느낌 표현 원함.",위태로움.
-2,6400dc9af341e8a575a457f6,10,fight,4,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",indicates conflict and action,5,nan,0,nan,7,nan,nan
-3,6400dc9af341e8a575a457f6,10,fight,4,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",indicates conflict and action,5,nan,0,nan,7,nan,nan
-4,5e4875f3110b3730eefa32a1,10,fight,10,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,0,0,0]",the fight,8,nan,7,nan,9,nan,nan
-5,5e909d9ac9ce2503b2650797,10,fight,6,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,0]",the struggle between the two and even the lamp swinging,7,nan,1,nan,8,nan,nan
-6,5fc00a11268eb941e7d8b066,10,fight,8,"[0,0,0,0]","[0,1,1,0]","[0,0,0,0]","[0,0,0,0]",The two men are fighting and conveying that emotion on their faces.,9,nan,2,nan,8,nan,nan
-7,5b295f60bbd4880001117976,10,fight,9,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,0]",Movement is fast and passionate with the figures fighting,9,nan,8,nan,8,nan,nan
-8,630100561dc47fd83f5b4745,10,fight,10,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",Two men fighting and leaning towards each other representing a lot of motion in a still picture. ,10,nan,10,nan,9,nan,nan
-9,5f7959d0b6791155e6932dd1,10,fight,8,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,0,0,0]",The struggle between the two men are what brings dynamism to the picture.,8,  The picture is dramatic and violent and so the music should be high tempo'ed to show this.,1,  The pitch should be low like the grunt of fighting men.,8,  The drama and chaos of the picture is best shown in a dense piece of music.,There should be strong beats and dramatic additions to the music that you would get in a fight.
-10,5967e9a831394d0001abdb3f,10,fight,7,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]","The figure are shown to be moving, created a dynamic picture",7,  To add drama,6,nan,7,nan,nan
-11,657421f9661ce9a8cd7482d1,10,fight,10,"[1,1,1,1]","[1,1,1,1]","[1,1,1,1]","[1,1,1,1]",The art work contain a very unique sense of dynamic,5,  Moderate tempo music is good for the art work ,5,  Moderate pitch music is good for the art work ,5,  Moderate density music is good for the art work ,nan
-12,5e56590389b924000c184113,10,fight,10,"[1,1,0,0]","[0,1,0,0]","[0,1,1,0]","[0,1,1,1]","Drama, violence and conflict",9,nan,2,nan,10,nan,nan
-13,65c4bfbc22bc351322c66e32,10,fight,5,"[0,0,0,0]","[0,1,0,0]","[0,0,1,0]","[0,0,0,0]",Very beautiful,1,nan,2,nan,5,nan,nan
-14,63f77942d3cad20e65a411a9,10,fight,8,"[1,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]","men are fighting, lamp swinging",8,nan,1,nan,10,nan,nan
-15,5c584d2040378900013b6fb9,10,fight,7,"[1,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",A fight which looks to have spilled out into the room. Two men are struggling and trying to hurt eachother,5,nan,4,nan,5,nan,nan
-16,613e454dca2db9fcef1f8e8d,10,fight,10,"[0,1,0,0]","[0,1,1,0]","[0,0,0,0]","[0,0,0,1]","Arms and legs outsretched, muscles visible, fist raised as if to hit, lamp swinging",8,nan,3,nan,7,nan,nan
+1,Seong Ho,A10,fight,10,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[1,0,0,1]","죽일 듯이 싸우는 남자 둘, 흔들리는 랜턴이 역동적임.",8,  긴장감 있게 빨랐으면 함.,3,  남성적인 느낌 표현 원함.,10,"  널부러진 물체, 날카로운 칼, 힘겨루기 하는 남자들 과 같은 느낌 표현 원함.",위태로움.
+2,6400dc9af341e8a575a457f6,A10,fight,4,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",indicates conflict and action,5,nan,0,nan,7,nan,nan
+3,6400dc9af341e8a575a457f6,A10,fight,4,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",indicates conflict and action,5,nan,0,nan,7,nan,nan
+4,5e4875f3110b3730eefa32a1,A10,fight,10,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,0,0,0]",the fight,8,nan,7,nan,9,nan,nan
+5,5e909d9ac9ce2503b2650797,A10,fight,6,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,0]",the struggle between the two and even the lamp swinging,7,nan,1,nan,8,nan,nan
+6,5fc00a11268eb941e7d8b066,A10,fight,8,"[0,0,0,0]","[0,1,1,0]","[0,0,0,0]","[0,0,0,0]",The two men are fighting and conveying that emotion on their faces.,9,nan,2,nan,8,nan,nan
+7,5b295f60bbd4880001117976,A10,fight,9,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,0]",Movement is fast and passionate with the figures fighting,9,nan,8,nan,8,nan,nan
+8,630100561dc47fd83f5b4745,A10,fight,10,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",Two men fighting and leaning towards each other representing a lot of motion in a still picture. ,10,nan,10,nan,9,nan,nan
+9,5f7959d0b6791155e6932dd1,A10,fight,8,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,0,0,0]",The struggle between the two men are what brings dynamism to the picture.,8,  The picture is dramatic and violent and so the music should be high tempo'ed to show this.,1,  The pitch should be low like the grunt of fighting men.,8,  The drama and chaos of the picture is best shown in a dense piece of music.,There should be strong beats and dramatic additions to the music that you would get in a fight.
+10,5967e9a831394d0001abdb3f,A10,fight,7,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]","The figure are shown to be moving, created a dynamic picture",7,  To add drama,6,nan,7,nan,nan
+11,657421f9661ce9a8cd7482d1,A10,fight,10,"[1,1,1,1]","[1,1,1,1]","[1,1,1,1]","[1,1,1,1]",The art work contain a very unique sense of dynamic,5,  Moderate tempo music is good for the art work ,5,  Moderate pitch music is good for the art work ,5,  Moderate density music is good for the art work ,nan
+12,5e56590389b924000c184113,A10,fight,10,"[1,1,0,0]","[0,1,0,0]","[0,1,1,0]","[0,1,1,1]","Drama, violence and conflict",9,nan,2,nan,10,nan,nan
+13,65c4bfbc22bc351322c66e32,A10,fight,5,"[0,0,0,0]","[0,1,0,0]","[0,0,1,0]","[0,0,0,0]",Very beautiful,1,nan,2,nan,5,nan,nan
+14,63f77942d3cad20e65a411a9,A10,fight,8,"[1,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]","men are fighting, lamp swinging",8,nan,1,nan,10,nan,nan
+15,5c584d2040378900013b6fb9,A10,fight,7,"[1,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",A fight which looks to have spilled out into the room. Two men are struggling and trying to hurt eachother,5,nan,4,nan,5,nan,nan
+16,613e454dca2db9fcef1f8e8d,A10,fight,10,"[0,1,0,0]","[0,1,1,0]","[0,0,0,0]","[0,0,0,1]","Arms and legs outsretched, muscles visible, fist raised as if to hit, lamp swinging",8,nan,3,nan,7,nan,nan
