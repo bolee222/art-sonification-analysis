@@ -116,17 +116,17 @@ def grid_heatmap(target_artwork):
 
 
 if __name__ == '__main__':
-    df = pd.read_csv('../dataset_cleanUp/Artworks_concat.csv')
+    df = pd.read_csv('../dataset_integrated/Artworks_concat.csv')
 
     df['sort'] = df['artwork'].str.extract('(\d+)', expand=False).astype(int)
     df.sort_values('sort',inplace=True, ascending=True)
     df = df.drop('sort', axis=1)
         
-    #sod_graph()
+    sod_graph()
 
-    #tempo_graph()
-    #pitch_graph()
-    #density_graph()
+    tempo_graph()
+    pitch_graph()
+    density_graph()
 
     #run for each artwork 
     for i in range(21):
