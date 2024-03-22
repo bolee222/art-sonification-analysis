@@ -1,0 +1,17 @@
+,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
+1,Seong Ho,A8,ballet,10,"[0,1,0,0]","[1,1,1,1]","[0,1,1,0]","[0,1,0,0]",단체로 춤을 추는 모습. 붓 터치감이 매우 역동적으로 느껴짐.,10,  매우 빠른 느낌의 음악이 필요해 보임.,3,  전통춤이라 적당히 낮았으면 함.,10,  빽빽한 느낌 표현 원함.,짙은 푸른색이 주는 자연미.
+2,6400dc9af341e8a575a457f6,A8,ballet,7,"[0,0,0,0]","[0,0,1,1]","[1,1,1,0]","[0,1,0,0]",indicates movement,8,nan,10,nan,10,nan,nan
+3,6400dc9af341e8a575a457f6,A8,ballet,7,"[0,0,0,0]","[0,0,1,1]","[1,1,1,0]","[0,1,0,0]",indicates movement,8,nan,10,nan,10,nan,nan
+4,5e4875f3110b3730eefa32a1,A8,ballet,1,"[0,0,0,0]","[0,0,0,0]","[0,0,0,0]","[0,0,0,1]",the striking stick,3,nan,8,nan,4,nan,nan
+5,5e909d9ac9ce2503b2650797,A8,ballet,6,"[0,0,0,1]","[0,0,1,1]","[0,1,1,0]","[0,1,0,0]",line of dancers give a lot of movement,9,nan,8,nan,5,nan,nan
+6,5fc00a11268eb941e7d8b066,A8,ballet,4,"[0,0,0,0]","[0,0,0,0]","[0,0,0,0]","[0,0,0,1]",The hand is most pronounced.,9,nan,8,nan,2,nan,nan
+7,5b295f60bbd4880001117976,A8,ballet,7,"[0,0,0,1]","[0,0,1,1]","[0,1,1,0]","[0,1,0,0]",nan,7,nan,7,nan,7,nan,nan
+8,630100561dc47fd83f5b4745,A8,ballet,7,"[0,0,1,1]","[0,0,1,1]","[1,1,0,0]","[0,1,0,0]",Movement from the arms and legs. ,5,nan,5,nan,5,nan,nan
+9,5f7959d0b6791155e6932dd1,A8,ballet,4,"[0,0,0,0]","[0,0,1,1]","[0,1,0,1]","[0,0,0,1]",The contrast between the lightness of the ballet dancers and the prominent dark baton held in the bottom corner is what brings the dynamism. ,4,  A middling tempo should be had like the the slow smooth movements of the ballet dancers.,4,  The pitch should be moderate to low as you might have in the intro of a ballet show.,4,  The lightness should be like the apparent ease you get when watching a ballet dancer perform. Like it is all easy for them.,"There should also be a sense of solidity in the music, like a dramatic beat that comes in to show the forcefulness of the the hand holding the baton."
+10,5967e9a831394d0001abdb3f,A8,ballet,6,"[0,0,0,0]","[0,0,0,0]","[0,1,0,0]","[0,1,0,0]","The ballerina is dancing away, creating a sense of dynamism",2,  Slow dancing music,4,nan,1,nan,nan
+11,657421f9661ce9a8cd7482d1,A8,ballet,8,"[0,0,0,0]","[0,1,1,1]","[0,1,1,1]","[0,1,1,0]",The sense of dynamic is unique with respect to the background area.,5,  Moderate tempo music is good for the art work ,5,  Moderate pitch music is good for the art work ,5,  Moderate density music is good for the art work ,nan
+12,5e56590389b924000c184113,A8,ballet,9,"[0,0,0,0]","[0,1,1,1]","[1,1,1,0]","[0,1,0,1]","Light, movement, vitality, energy",10,nan,7,nan,9,nan,Brush strokes add movement. Colour palette too has such breadth.
+13,65c4bfbc22bc351322c66e32,A8,ballet,6,"[0,0,0,0]","[0,0,1,0]","[0,0,0,0]","[0,0,0,0]",A little more beautiful,3,nan,2,nan,5,nan,nan
+14,63f77942d3cad20e65a411a9,A8,ballet,9,"[1,1,1,1]","[1,1,1,1]","[1,1,1,1]","[1,1,1,1]",the whole image is in motion,8,nan,8,nan,8,nan,nan
+15,5c584d2040378900013b6fb9,A8,ballet,7,"[0,0,0,0]","[0,0,1,1]","[1,1,1,0]","[1,1,0,1]",you can see a wand which is being held and pointed at a fairy type figure. she looks to be made a different size,7,nan,7,nan,8,nan,nan
+16,613e454dca2db9fcef1f8e8d,A8,ballet,8,"[0,1,1,0]","[1,0,1,1]","[0,1,1,0]","[0,1,0,1]","The movement of arms and legs dancing, and the lines in the abstract backgound that also indicate movement. A blurryness to the image. The movement of the conductors baton",8,nan,7,nan,8,"  It feels like there is a lot going on in this image, the density of the green colour is quite intense",nan
