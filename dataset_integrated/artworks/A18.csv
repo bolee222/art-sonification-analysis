@@ -14,7 +14,7 @@
 12,미지,A18,lying,2,"[0, 0, 0, 0]","[0, 1, 1, 1]","[0, 1, 1, 1]","[0, 1, 1, 1]","뒷배경의 하늘과 건물의 우중충한 색, 누워있는 여자가 지친 느낌을 줌",1.0,1 | 지친 느낌,2.0,2 | 지친 느낌,2.0,2 | 단조로운 음악에 낮은 밀도가 어울림,
 13,boldmas,A18,lying,1,"[0, 0, 0, 0]","[0, 0, 0, 0]","[0, 0, 1, 1]","[0, 1, 1, 1]",There are no movements in the subject's body or her garments. The background is also very static.,1.0,1 | It feels like a warm and sunny day where the subject is taking a siesta. The music should also be slow and relaxing to match the mood of the artwork.,5.0,5 | it should be neutral like the painting itself.,2.0,"2 | The scenery is simple and static and the mood is relaxing, therefore, the music must also convey a similar mood.",
 14,Seong Ho,A18,lying,0,"[0,0,0,0]","[0,0,0,0]","[0,0,1,1]","[0,1,1,0]",일 그만하고 쉬고싶은 여자 느낌이 정적임.,0.0,  일 안하고 늘어지고 싶은 느낌 표현 원함.,1.0,,2.0,  일은 해야 하는데 쉬는 느낌이라 많이 Sparse 는 아니었으면 함.,농땡이치는 느낌.
-15,6400dc9af341e8a575a457f6,A18,lying,4,"[0,0,0,1]","[1,1,1,1]","[0,0,1,1]","[0,1,1,0]",both the buildings in the background and the person laying in the grass stand out equally,1.0,,3.0,,3.0,,
+15,5e67524094c67a000a04ca8e,A18,lying,2,"[0,0,0,0]","[0,0,0,0]","[0,0,1,1]","[0,0,1,1]",I see still and calm,3.0,,4.0,,3.0,,
 16,6400dc9af341e8a575a457f6,A18,lying,4,"[0,0,0,1]","[1,1,1,1]","[0,0,1,1]","[0,1,1,0]",both the buildings in the background and the person laying in the grass stand out equally,1.0,,3.0,,3.0,,
 17,5e4875f3110b3730eefa32a1,A18,lying,0,"[0,0,0,0]","[0,0,0,0]","[0,0,1,0]","[0,0,0,0]",not dynamic in my opinion,2.0,,2.0,,2.0,,
 18,5e909d9ac9ce2503b2650797,A18,lying,0,"[1,0,0,0]","[0,0,0,0]","[0,0,0,0]","[0,0,0,0]","it's not dynamic, it looks like the person has died in the field",0.0,,0.0,,8.0,,

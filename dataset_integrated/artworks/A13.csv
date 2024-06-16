@@ -14,7 +14,7 @@
 12,미지,A13,sit,0,"[1, 1, 1, 1]","[1, 1, 1, 1]","[1, 1, 1, 1]","[1, 1, 1, 1]","바람이 불지않는 날씨, 멍하게 앉아있는 여자 등 전체적인 분위기",2.0,2 | 역동적이지는 않지만 외부 환경을 바탕으로 하고 있기때문에 매우 느리지는 않고 어느정도만 느린 템포가 이상적임,7.0,7 | 여성의 휴식이 잠깐으로 느껴지기때문에 보통보다 약간 높은 음,1.0,1 | 휴식 중인 그림 상황에 맞게 단조로운 음악이 어울림,
 13,boldmas,A13,sit,0,"[0, 0, 0, 0]","[0, 0, 0, 0]","[0, 1, 1, 0]","[0, 1, 1, 0]",The woman is the main subject of the painting and the focus is on her.,0.0,0 | There are no actions taking place,4.0,4 | The scene is static but relaxing.,1.0,"1 | There is not much going on in the artwork, so not much density should be expected from the music.",
 14,Seong Ho,A13,sit,2,"[0,0,0,0]","[0,0,1,0]","[0,1,1,0]","[0,1,1,0]",앉아서 멍때리는 여자 느낌이 정적임.,0.0,  아무 생각 안하는 느낌 표현 원함.,5.0,,2.0,"  멍때리는데, 풀이 많아서 너무 Sparse 느낌은 아님.",빽빽함. 몰래 쉬는 느낌.
-15,6400dc9af341e8a575a457f6,A13,sit,9,"[0,0,0,0]","[0,0,1,0]","[0,1,1,0]","[0,1,1,1]",the person in the picture is the only remarkable thing about the image,2.0,,4.0,,7.0,,
+15,5e67524094c67a000a04ca8e,A13,sit,4,"[0,1,1,1]","[0,1,1,1]","[0,0,0,0]","[0,0,0,0]",I see nature rustling slightly,4.0,,4.0,,4.0,,
 16,6400dc9af341e8a575a457f6,A13,sit,9,"[0,0,0,0]","[0,0,1,0]","[0,1,1,0]","[0,1,1,1]",the person in the picture is the only remarkable thing about the image,2.0,,4.0,,7.0,,
 17,5e4875f3110b3730eefa32a1,A13,sit,0,"[0,0,0,0]","[0,0,1,0]","[0,0,1,0]","[0,0,1,0]",main character,0.0,,3.0,,1.0,,
 18,5e909d9ac9ce2503b2650797,A13,sit,2,"[0,0,0,0]","[0,0,0,0]","[0,0,1,0]","[0,0,0,0]",the look in the girls face,2.0,,2.0,,6.0,,
