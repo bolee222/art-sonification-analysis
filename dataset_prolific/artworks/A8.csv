@@ -1,6 +1,6 @@
 ,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
 1,Seong Ho,A8,ballet,10,"[0,1,0,0]","[1,1,1,1]","[0,1,1,0]","[0,1,0,0]",단체로 춤을 추는 모습. 붓 터치감이 매우 역동적으로 느껴짐.,10,  매우 빠른 느낌의 음악이 필요해 보임.,3,  전통춤이라 적당히 낮았으면 함.,10,  빽빽한 느낌 표현 원함.,짙은 푸른색이 주는 자연미.
-2,6400dc9af341e8a575a457f6,A8,ballet,7,"[0,0,0,0]","[0,0,1,1]","[1,1,1,0]","[0,1,0,0]",indicates movement,8,nan,10,nan,10,nan,nan
+2,5e67524094c67a000a04ca8e,A8,ballet,7,"[0,1,1,0]","[0,1,1,0]","[0,1,1,1]","[0,0,1,1]",Very dynamic but very hard to understand,10,nan,10,nan,10,nan,nan
 3,6400dc9af341e8a575a457f6,A8,ballet,7,"[0,0,0,0]","[0,0,1,1]","[1,1,1,0]","[0,1,0,0]",indicates movement,8,nan,10,nan,10,nan,nan
 4,5e4875f3110b3730eefa32a1,A8,ballet,1,"[0,0,0,0]","[0,0,0,0]","[0,0,0,0]","[0,0,0,1]",the striking stick,3,nan,8,nan,4,nan,nan
 5,5e909d9ac9ce2503b2650797,A8,ballet,6,"[0,0,0,1]","[0,0,1,1]","[0,1,1,0]","[0,1,0,0]",line of dancers give a lot of movement,9,nan,8,nan,5,nan,nan
