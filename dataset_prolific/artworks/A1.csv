@@ -1,6 +1,6 @@
 ,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
 1,Seong Ho,A1,running,10,"[0,0,0,0]","[0,1,1,0]","[1,1,1,1]","[0,0,0,0]","달리는 아이들, 거센 파도",8,  달리는 느낌을 표현 담을 수 있어서,4,  평온한 느낌이 들었으면 함. 높으면 정신 사나움.,10,  달리는 아이와 파도가 같이 빠르게 표현되려면 Density 가 높아야 할 것 같음.,따뜻함.
-2,6400dc9af341e8a575a457f6,A1,running,7,"[0,0,0,0]","[1,1,1,1]","[1,1,1,1]","[1,0,0,0]",these sections indicate movement in the picture,7,nan,8,nan,6,nan,nan
+2,5e67524094c67a000a04ca8e,A1,running,5,"[0,0,0,0]","[1,1,1,1]","[1,1,1,1]","[0,0,0,0]",That is what my eyes were drawn to immediately ,4,"  I feel like this photo has some decent movement in it so the music can't be very slow, but it also doesn't look like a fast paced piece either. ",3,  Again I feel a moderate/calming nature of this artwork but slightly to the calmer side which would have lower tones. ,4,  The same moderate feel as the previous questions. ,Genre possibly
 3,6400dc9af341e8a575a457f6,A1,running,7,"[0,0,0,0]","[1,1,1,1]","[1,1,1,1]","[1,0,0,0]",these sections indicate movement in the picture,7,nan,8,nan,6,nan,nan
 4,5e4875f3110b3730eefa32a1,A1,running,6,"[0,0,0,0]","[0,0,0,0]","[0,0,0,1]","[0,0,0,0]",It is rather dynamic to have a nude person on the beach where other people are fully clothed,3,  It would complement the artwork better,5,nan,5,nan,nan
 5,5e909d9ac9ce2503b2650797,A1,running,3,"[0,0,0,0]","[0,0,1,0]","[1,1,0,1]","[0,0,0,0]",because they have the most movement,5,  because they are gently playing,4,nan,3,nan,nan

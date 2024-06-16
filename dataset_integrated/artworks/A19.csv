@@ -14,7 +14,7 @@
 12,미지,A19,standing,1,"[0, 0, 0, 0]","[0, 1, 1, 0]","[0, 1, 1, 0]","[1, 1, 1, 1]",폐허같은 배경과 머리카락 옷의 움직임이 없는 모습이 정적으로 느껴짐,0.0,0 | 폐허의 느낌을 살리기위해,1.0,1 | 음울한 분위기의 낮은 음,1.0,1 | 밀도가 높을수록 풍요로운 느낌을 줄 수 있으므로 공허한 느낌은 낮은 밀도의 음악으로 표현,
 13,boldmas,A19,standing,2,"[0, 0, 0, 0]","[0, 1, 1, 0]","[0, 1, 1, 0]","[0, 1, 1, 0]",The subject of the painting is standing there,3.0,"3 | The subject is standing in a neutral position, wearing white, and not much movement is happening.",5.0,5 | the colors and the character are very neutral,1.0,1 | not much is going on in terms of color and movements,
 14,Seong Ho,A19,satnding,0,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,0]",외롭게 서있는 여자가 정적인 느낌을 강하게 줌.,0.0,  외로운 느낌이 표현되었으면 함.,2.0,  톤다운된 색채감 표현 원함.,0.0,  외로운 느낌이 표현되었으면 함.,외로움. 사연있는 느낌.
-15,6400dc9af341e8a575a457f6,A19,satnding,3,"[0,0,0,0]","[0,0,0,0]","[0,1,0,1]","[1,1,1,1]",the ground of this image contains the most variation in colors,1.0,,2.0,,8.0,,
+15,5e67524094c67a000a04ca8e,A19,satnding,0,"[1,1,1,1]","[0,0,0,0]","[0,0,0,0]","[1,1,1,1]","I see silence, almost like a freeze frame of nothingness",0.0,,0.0,,0.0,,
 16,6400dc9af341e8a575a457f6,A19,satnding,3,"[0,0,0,0]","[0,0,0,0]","[0,1,0,1]","[1,1,1,1]",the ground of this image contains the most variation in colors,1.0,,2.0,,8.0,,
 17,5e4875f3110b3730eefa32a1,A19,satnding,3,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,0,0,0]",the main character,3.0,,4.0,,5.0,,
 18,5e909d9ac9ce2503b2650797,A19,satnding,0,"[1,0,0,0]","[0,0,0,0]","[0,0,0,0]","[0,0,0,0]",not at all dynamic,1.0,,1.0,,6.0,,

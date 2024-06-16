@@ -1,6 +1,6 @@
 ,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
 1,Seong Ho,A11,fight,10,"[0,0,0,0]","[1,1,1,1]","[0,1,1,1]","[0,1,1,0]","싸우는 사람들, 물결 무늬 패턴이 역동적임.",9,nan,7,  고동색 느낌,10,  싸우는 사람과 물결 무늬가 하나하나 표현되었으면 해서.,nan
-2,6400dc9af341e8a575a457f6,A11,fight,8,"[0,1,1,1]","[0,1,1,0]","[0,1,1,0]","[1,1,1,1]",features multiple figures moving synchronously,5,nan,2,nan,7,nan,nan
+2,5e67524094c67a000a04ca8e,A11,fight,8,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,0]",The movement from the men in the photos tell a very dynamic story of conflict,8,nan,7,nan,7,nan,nan
 3,6400dc9af341e8a575a457f6,A11,fight,8,"[0,1,1,1]","[0,1,1,0]","[0,1,1,0]","[1,1,1,1]",features multiple figures moving synchronously,5,nan,2,nan,7,nan,nan
 4,5e4875f3110b3730eefa32a1,A11,fight,8,"[1,1,1,1]","[0,1,1,1]","[0,1,1,1]","[0,1,1,0]",the scene,8,nan,9,nan,10,nan,nan
 5,5e909d9ac9ce2503b2650797,A11,fight,3,"[0,0,1,0]","[0,1,1,0]","[0,1,1,0]","[0,0,0,0]",they show the actions of the people,4,nan,2,nan,7,nan,nan

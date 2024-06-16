@@ -1,6 +1,6 @@
 ,name,artwork,poseType,sod,gRoq1_mat,gRoq2_mat,gRoq3_mat,gRoq4_mat,reasons,tempo_score,tempo,pitch_score,pitch,density_score,density,additional_perception
 1,Seong Ho,A10,fight,10,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[1,0,0,1]","죽일 듯이 싸우는 남자 둘, 흔들리는 랜턴이 역동적임.",8,  긴장감 있게 빨랐으면 함.,3,  남성적인 느낌 표현 원함.,10,"  널부러진 물체, 날카로운 칼, 힘겨루기 하는 남자들 과 같은 느낌 표현 원함.",위태로움.
-2,6400dc9af341e8a575a457f6,A10,fight,4,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",indicates conflict and action,5,nan,0,nan,7,nan,nan
+2,5e67524094c67a000a04ca8e,A10,fight,9,"[0,1,1,0]","[0,1,1,0]","[1,1,1,0]","[1,0,0,0]",I see a fight with banging and crashing and wild movement,10,nan,4,nan,5,nan,nan
 3,6400dc9af341e8a575a457f6,A10,fight,4,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",indicates conflict and action,5,nan,0,nan,7,nan,nan
 4,5e4875f3110b3730eefa32a1,A10,fight,10,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,0,0,0]",the fight,8,nan,7,nan,9,nan,nan
 5,5e909d9ac9ce2503b2650797,A10,fight,6,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,0]",the struggle between the two and even the lamp swinging,7,nan,1,nan,8,nan,nan

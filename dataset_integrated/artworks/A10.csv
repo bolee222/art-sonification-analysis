@@ -14,7 +14,7 @@
 12,미지,A10,fight,10,"[0, 1, 0, 0]","[0, 0, 0, 0]","[1, 0, 0, 1]","[1, 0, 0, 1]",얼핏 봤을때 역동적으로 느껴지지 않았으나 손에 칼을 봤을때 싸우고 있는 장면으로 생각되어 매우 역동적으로 느껴짐,1.0,10 | 급박한 분위기에 맞는 빠른 음악,3.0,3 | 가볍지않은 낮은 음의 음악이 어울림,9.0,9 | 격투하며 주변의 물건들이 흐트러지는 소리를 밀도높은 음악으로 표현 가능,
 13,boldmas,A10,fight,10,"[1, 1, 1, 0]","[0, 1, 1, 0]","[0, 1, 1, 0]","[0, 1, 1, 0]",That is where majority of the movements are taking place.,1.0,10 |  The scene seems to be very tense and a crime is about to take place and tension is building.,1.0,1 |  it matches the very dark and somber setting of the painting along with the tense action that results in a sad ending. Lower pitch seems to be fitting.,1.0,10 |  The scene is very tense and a struggle seems to be happening. The furniture is being thrown around. So much is happening all at the same time. ,
 14,Seong Ho,A10,fight,10,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[1,0,0,1]","죽일 듯이 싸우는 남자 둘, 흔들리는 랜턴이 역동적임.",8.0,  긴장감 있게 빨랐으면 함.,3.0,  남성적인 느낌 표현 원함.,10.0,"  널부러진 물체, 날카로운 칼, 힘겨루기 하는 남자들 과 같은 느낌 표현 원함.",위태로움.
-15,6400dc9af341e8a575a457f6,A10,fight,4,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",indicates conflict and action,5.0,,0.0,,7.0,,
+15,5e67524094c67a000a04ca8e,A10,fight,9,"[0,1,1,0]","[0,1,1,0]","[1,1,1,0]","[1,0,0,0]",I see a fight with banging and crashing and wild movement,10.0,,4.0,,5.0,,
 16,6400dc9af341e8a575a457f6,A10,fight,4,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,1]",indicates conflict and action,5.0,,0.0,,7.0,,
 17,5e4875f3110b3730eefa32a1,A10,fight,10,"[0,0,0,0]","[0,1,1,0]","[0,1,1,0]","[0,0,0,0]",the fight,8.0,,7.0,,9.0,,
 18,5e909d9ac9ce2503b2650797,A10,fight,6,"[0,1,0,0]","[0,1,1,0]","[0,1,1,0]","[0,1,1,0]",the struggle between the two and even the lamp swinging,7.0,,1.0,,8.0,,
