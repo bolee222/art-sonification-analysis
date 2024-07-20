@@ -129,8 +129,8 @@ if __name__ == '__main__':
     #density_graph()
 
     #run for each artwork 
-    for i in range(21):
-        grid_heatmap("A" + str(i+1))    
+    #for i in range(21):
+    #    grid_heatmap("A" + str(i+1))    
 
 
 
