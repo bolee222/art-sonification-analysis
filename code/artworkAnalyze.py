@@ -124,9 +124,9 @@ if __name__ == '__main__':
         
     sod_graph()
 
-    tempo_graph()
-    pitch_graph()
-    density_graph()
+    #tempo_graph()
+    #pitch_graph()
+    #density_graph()
 
     #run for each artwork 
     for i in range(21):
