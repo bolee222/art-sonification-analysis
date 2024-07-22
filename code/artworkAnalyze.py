@@ -1,10 +1,22 @@
 import pandas as pd
 import numpy as np
+import matplotlib as mat
 import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib.image as mpimg 
 from PIL import Image
+from matplotlib.colors import ListedColormap
+
 #https://r02b.github.io/seaborn_palettes/
+
+colorSets = ['#DD462E','#F07D09', '#B028F4', '#F42863','#4B79C4', '#37AD3B', '#205E22']
+colorSets_21 = ['#DD462E', '#DD462E', '#DD462E',
+                '#F07D09', '#F07D09', '#F07D09', 
+                '#B028F4', '#B028F4', '#B028F4', 
+                '#F42863', '#F42863', '#F42863',
+                '#4B79C4', '#4B79C4',  '#4B79C4', 
+                '#37AD3B', '#37AD3B', '#37AD3B', 
+                '#205E22', '#205E22', '#205E22']
 
 def sod_graph():
     mean = df.groupby('artwork').sod.mean().reset_index()
@@ -14,21 +26,41 @@ def sod_graph():
     mean = mean['sod']
 
     std = df.groupby('artwork').sod.std() / np.sqrt(df.groupby('artwork').sod.count())
-
+    
     ax = plt.figure(figsize = (18,7))
-    ax = sns.violinplot(x="artwork", y="sod", data=df, hue="poseType", linewidthfloat=0.01, palette="RdYlGn", dodge=False, inner=None)
 
+    sns.set_palette(sns.color_palette(colorSets))
+
+
+    #VIOLIN PLOT---------------------------
+    ax = sns.violinplot(x="artwork", y="sod", data=df, hue="poseType", dodge=False, inner=None, legend=False)
     violins = [c for i, c in enumerate(ax.collections)]  
     [v.set_edgecolor("white") for v in violins]  # 전체 violin edgecolor 변경
-    [v.set_linewidth(0.01) for v in violins]  # 전체 violin edgecolor 변경
-    [v.set_alpha(0.3) for v in violins]
+    [v.set_linewidth(0.01) for v in violins]  # 전체 violin edgecolor 변경 
+    [v.set_alpha(0.15) for v in violins]
     violins[3].set_edgecolor("k")        # Sunday violin edgecolor 변경
 
-    ax = sns.swarmplot (x="artwork", y="sod", data=df, dodge=False, hue="poseType", alpha=.5)
-    plt.scatter(x=range(len(mean)),y=mean,c="k")
-    plt.errorbar(range(len(mean)), mean, yerr=std, ls='none', c="k")
+    #SWARMPLOT ---------------------------
+    #ax = sns.swarmplot (x="artwork", y="sod", data=df, dodge=False, hue="poseType", alpha=.5)
+    #plt.scatter(x=range(len(mean)),y=mean,c="k")
+    #plt.errorbar(range(len(mean)), mean, yerr=std, ls='none', c="k")
+
+    #GRIDS ---------------------------
+    ax.set_yticks(np.arange(1, 10, 2), minor=True)
+    ax.grid(axis='y', linewidth=0.25, alpha=0.8)
+    ax.grid(which='minor', alpha=0.3)
+
+    #BOXPLOT ---------------------------
+    ax = sns.boxplot(data=df, x="artwork", y="sod", hue="poseType", width=0.6, linecolor="#137", linewidth=1.00, fill=False, showmeans=True, gap = 0.1, meanprops={"marker": "^",
+                       "markerfacecolor": "black", "markeredgecolor": "black",
+                       "markersize": "8"})
+    #for patch in ax.artists:
+    #    fc = patch.get_facecolor()
+    #    patch.set_facecolor(mpl.colors.to_rgba(fc, 0.3))
+
 
     ax.set_xlabel("Artworks")
+    ax.set_ylim([-0.5, 10.5])
     ax.set_ylabel("Sense of Dynamic Score")
     sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
     plt.savefig('../plots/sod_graph.png', bbox_inches='tight')
@@ -58,6 +90,7 @@ def pitch_graph():
     
     #ax.set_xlabel("Pitch Level")
     #ax.set_ylabel("Sense of Dynamic Score")
+
     plt.savefig('../plots/corr_pitch.png', bbox_inches='tight')
 
 def density_graph():
@@ -122,15 +155,15 @@ if __name__ == '__main__':
     df.sort_values('sort',inplace=True, ascending=True)
     df = df.drop('sort', axis=1)
         
-    sod_graph()
+    #sod_graph()
 
     #tempo_graph()
     #pitch_graph()
     #density_graph()
 
     #run for each artwork 
-    #for i in range(21):
-    #    grid_heatmap("A" + str(i+1))    
+    for i in range(21):
+        grid_heatmap("A" + str(i+1))    
 
 
 
