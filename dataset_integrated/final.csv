@@ -1,0 +1,32 @@
+,nickname,sod_a1,sod_a2,element_pose,element_color,element_light,element_stroke,element_style,elemet_add,detail_poseSize,detail_arms,detail_inclination,detail_effort,detail_face,detail_activity,detail_number,detail_location,detail_humanColor,detail_bgColor
+0,나비,1,5,5,3,4,2,1,하늘에 구름의 양,5,5,3,5,5,3,1,1,1,4
+1,rub,2,5,5,4,4,3,2,the style of painting regarding to cultural bg ( ex. flamingo) - very huge,4,5,4,3,4,5,2,2,3,4
+2,Daisy,5,6,5,5,4,2,2,Definition of the painting (due to the drawing styles) - moderate,5,3,4,2,3,4,3,3,2,3
+3,Doky,0,2,5,4,4,2,2,"인물의 표정, 주변 풍경, 상황적 유추",4,4,3,3,5,4,2,3,3,4
+4,chanpig,3,8,4,4,4,4,3,곡선과 직선,4,4,4,4,4,4,2,2,4,4
+5,곤듀,1,7,5,4,3,4,4,,4,4,4,4,4,5,2,4,2,4
+6,이인애,2,6,5,4,3,4,3,선의표현 - 영향있음,4,4,4,3,3,4,2,4,3,4
+7,고고,1,7,5,3,3,3,3,-,5,5,4,4,4,5,4,4,4,3
+8,경,0,6,5,3,3,3,2,"파도나 구름, 풀 등 배경 요소",5,5,5,4,4,4,3,5,2,3
+9,yoni,2,5,5,4,3,4,1,,4,5,5,3,4,4,2,2,4,5
+10,밍경댕,2,4,4,3,4,1,2,바다의 색상을 통한 깊이표현 - 큰영향  하늘의 색상을 통하 날씨- 큰영향  ,5,5,4,3,4,4,2,1,4,4
+11,배뀽,1,4,4,3,2,1,2,"밝은데 곳곳에 어두우면 역동성 저해 파도의 흐름, 바람의 표현 등",1,1,2,3,1,1,2,1,3,3
+12,미지,1,6,5,4,3,4,2,색 대비-보통 영향,4,4,3,2,4,4,3,1,3,4
+13,boldmas,1,3,5,3,3,3,2,the elements of the background or the foreground and the type of the element (e.g. a moving fire or a plain building),4,5,3,2,2,4,4,3,3,4
+14,jellybelly,,,,,,,,,,,,,,,,,,
+15,Seong Ho,0,8,5,1,2,4,3,사람 또는 오브젝트의 수. Background 대비 Foreground 면적 비율.,5,5,4,5,1,5,4,1,1,1
+16,5e67524094c67a000a04ca8e,3,4,5,3,3,2,3,"I think the feeling of depth in the styles, the simpler photos I felt were less dynamic than more of the realistic ones, so I guess this would fit slightly under artwork styles.",4,4,5,4,3,3,4,4,1,4
+17,6400dc9af341e8a575a457f6,2,1,5,4,2,3,2,nan,3,5,3,5,1,2,3,3,3,4
+18,5e4875f3110b3730eefa32a1,2,4,5,5,4,1,2,nan,4,4,4,2,3,4,1,1,4,5
+19,5e909d9ac9ce2503b2650797,0,1,4,2,2,1,1,nan,4,4,3,4,3,4,2,2,1,2
+20,5fc00a11268eb941e7d8b066,8,2,5,4,3,3,2,nan,4,4,3,5,5,3,3,2,4,4
+21,5b295f60bbd4880001117976,2,4,4,3,3,2,3,nan,4,4,5,4,3,4,4,3,3,3
+22,630100561dc47fd83f5b4745,3,7,5,1,1,1,2,No I can't think of anything else. ,5,5,2,5,3,3,5,3,1,1
+23,5f7959d0b6791155e6932dd1,6,3,4,3,3,3,3,"The sense of movement is what, for me, had the most impact in the picture.",4,4,3,3,4,3,3,2,2,2
+24,5967e9a831394d0001abdb3f,1,3,5,3,3,2,2,"Intent of movement, rather than actual movement",5,5,4,4,3,4,3,3,2,2
+25,657421f9661ce9a8cd7482d1,8,8,5,4,4,5,2,nan,5,3,3,4,4,4,3,4,2,5
+26,5e56590389b924000c184113,2,3,5,5,5,5,2,Emotions of the figures depicted - joyful or pain for example.,5,5,4,4,5,5,4,4,2,4
+27,65c4bfbc22bc351322c66e32,6,6,4,3,3,3,3,nan,3,4,2,4,4,3,2,4,3,5
+28,63f77942d3cad20e65a411a9,1,3,3,4,4,2,2,nan,4,4,4,5,3,4,4,3,3,4
+29,5c584d2040378900013b6fb9,1,3,4,2,2,1,2,the subject matter and emotion,4,4,4,4,2,3,3,2,1,2
+30,613e454dca2db9fcef1f8e8d,1,7,5,2,3,3,1,nan,5,5,3,4,3,5,2,3,2,2

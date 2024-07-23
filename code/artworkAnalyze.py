@@ -7,6 +7,7 @@ import matplotlib.image as mpimg
 from PIL import Image
 from matplotlib.colors import ListedColormap
 
+
 #https://r02b.github.io/seaborn_palettes/
 
 colorSets = ['#DD462E','#F07D09', '#B028F4', '#F42863','#4B79C4', '#37AD3B', '#205E22']
@@ -65,45 +66,75 @@ def sod_graph():
     sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
     plt.savefig('../plots/sod_graph.png', bbox_inches='tight')
 
+palette_colorTwo = sns.color_palette(['#F77855','#89DEF5'])
+#palette_colorTwo_r = sns.color_palette(['#4B79C4', '#DD462E'])
+
 def tempo_graph():
     df_new = df[['sod', 'tempo_score']].value_counts().reset_index(name='count')
     print(df_new.head(4))
     df_ = df[df["artwork"] == 'A14'] 
 
     ax = plt.figure(figsize = (4,4))
-    #ax = sns.relplot(data=df_new, x="sod", y="tempo_score",  size = 'count', hue="count")
     sns.set_theme(style="ticks")
-    ax = sns.jointplot(x="sod", y="tempo_score", data=df, kind="hist", alpha=0.0, cmap="Blues")
-    ax = sns.kdeplot(x="sod", y="tempo_score", data=df, fill=True, alpha=.7 ,cmap="Blues")
-
-    #ax.set_xlabel("Tempo Level")
+    ax = sns.jointplot(x="sod", y="tempo_score", data=df, kind="hist", alpha=0.0, hue="activityType", palette=palette_colorTwo, legend = False)
+    #ax = sns.lmplot(x="sod", y="tempo_score", data=df,  hue="activityType", palette=palette_colorTwo, scatter=False, legend=False)
+    #ax.set(ylim=(-2, 12))   
+    #ax.set(xlim=(-2, 12))   
+    ax = sns.kdeplot(x="sod", y="tempo_score", data=df, fill=True, alpha=.8, levels=8, hue="activityType", bw_adjust=1.8) 
+    ax.set_xlim([-2, 12])
+    ax.set_ylim([-2, 12])
     #ax.set_ylabel("Sense of Dynamic Score")
-    plt.savefig('../plots/corr_tempo.png', bbox_inches='tight')
+    plt.savefig('../plots/corr_tempo.png', bbox_inches='tight', transparent=True)
+
+    df_static = df.loc[df['activityType'] != "static"]
+    df_dynamic = df.loc[df['activityType'] != "dynamic"]
+    print("RSquared / Tempo / Static:  " + str(df_static['sod'].corr(df_static['tempo_score'], method='pearson')))
+    print("RSquared / Tempo / Dynamic:  " + str(df_dynamic['sod'].corr(df_dynamic['tempo_score'], method='pearson')))
+
 
 def pitch_graph():
     df_new = df[['sod', 'pitch_score']].value_counts().reset_index(name='count')
     print(df_new.head(4))
     ax = plt.figure(figsize = (4,4))
-    #ax = sns.relplot(data=df_new, x="sod", y="pitch_score",  size = 'count', hue="count")
-    ax = sns.jointplot(x="sod", y="pitch_score", data=df, kind="hist", alpha=0.0, cmap="Blues")
-    ax = sns.kdeplot(x="sod", y="pitch_score", data=df, fill=True, alpha=.7 ,cmap="Blues")
     
+    ax = sns.jointplot(x="sod", y="pitch_score", data=df, kind="hist",  alpha=0.0, hue="activityType", palette=palette_colorTwo, legend = False)
+    #ax = sns.lmplot(x="sod", y="pitch_score", data=df,  hue="activityType", palette=palette_colorTwo, scatter=False, legend=False)
+    #ax.set(ylim=(-2, 12))   
+    #ax.set(xlim=(-2, 12))   
+    ax = sns.kdeplot(x="sod", y="pitch_score", data=df, fill=True, alpha=.8,  hue="activityType")
+    
+    ax.set_xlim([-2, 12])
+    ax.set_ylim([-2, 12])
     #ax.set_xlabel("Pitch Level")
     #ax.set_ylabel("Sense of Dynamic Score")
+    plt.savefig('../plots/corr_pitch.png', bbox_inches='tight', transparent=True)
 
-    plt.savefig('../plots/corr_pitch.png', bbox_inches='tight')
+    df_static = df.loc[df['activityType'] != "static"]
+    df_dynamic = df.loc[df['activityType'] != "dynamic"]
+    print("RSquared / Pitch / Static:  " + str(df_static['sod'].corr(df_static['pitch_score'], method='pearson')))
+    print("RSquared / Pitch / Dynamic:  " + str(df_dynamic['sod'].corr(df_dynamic['pitch_score'], method='pearson')))
 
 def density_graph():
     df_new = df[['sod', 'density_score']].value_counts().reset_index(name='count')
     print(df_new.head(4))
     ax = plt.figure(figsize = (4,4))
-    #ax = sns.relplot(data=df_new, x="sod", y="density_score",  size = 'count', hue="count")
-    ax = sns.jointplot(x="sod", y="density_score", data=df, kind="hist", alpha=0.0, cmap="Blues")
-    ax = sns.kdeplot(x="sod", y="density_score", data=df, fill=True, alpha=.7 ,cmap="Blues")
+    
+    ax = sns.jointplot(x="sod", y="density_score", data=df, kind="hist", alpha=0.0, hue="activityType", palette=palette_colorTwo, legend = False)
+    #ax = sns.lmplot(x="sod", y="density_score", data=df,  hue="activityType", palette=palette_colorTwo, scatter=False, legend=False)
+    #ax.set(ylim=(-2, 12))   
+    #ax.set(xlim=(-2, 12)) 
+    ax = sns.kdeplot(x="sod", y="density_score", data=df, fill=True, alpha=.8,  levels=8, hue="activityType", bw_adjust=1.8)
 
+    ax.set_xlim([-2, 12])
+    ax.set_ylim([-2, 12])
     #ax.set_xlabel("Density Level")
     #ax.set_ylabel("Sense of Dynamic Score")
-    plt.savefig('../plots/corr_density.png', bbox_inches='tight')
+    plt.savefig('../plots/corr_density.png', bbox_inches='tight', transparent=True)
+
+    df_static = df.loc[df['activityType'] != "static"]
+    df_dynamic = df.loc[df['activityType'] != "dynamic"]
+    print("RSquared / Density / Static:  " + str(df_static['sod'].corr(df_static['density_score'], method='pearson')))
+    print("RSquared / Density / Dynamic:  " + str(df_dynamic['sod'].corr(df_dynamic['density_score'], method='pearson')))
 
 def parsing(grid):
     grid = grid.replace('[','').replace(']','').split(',')
@@ -149,11 +180,19 @@ def grid_heatmap(target_artwork):
 
 
 if __name__ == '__main__':
-    df = pd.read_csv('../dataset_integrated/Artworks_concat.csv')
 
+    df_yon = pd.read_csv('../dataset_cleanUp/Artworks_concat.csv')
+    df_yon['sort'] = df_yon['artwork'].str.extract('(\d+)', expand=False).astype(int)
+    df_yon.sort_values('sort',inplace=True, ascending=True)
+    df_yon = df_yon.drop('sort', axis=1)
+
+
+    df = pd.read_csv('../dataset_integrated/Artworks_concat.csv')
     df['sort'] = df['artwork'].str.extract('(\d+)', expand=False).astype(int)
     df.sort_values('sort',inplace=True, ascending=True)
     df = df.drop('sort', axis=1)
+
+
         
     #sod_graph()
 

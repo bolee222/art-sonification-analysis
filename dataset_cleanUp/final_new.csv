@@ -1,0 +1,15 @@
+,nickname,sod_a1,sod_a2,element_pose,element_color,element_light,element_stroke,element_style,elemet_add,detail_poseSize,detail_arms,detail_inclination,detail_effort,detail_face,detail_activity,detail_number,detail_location,detail_humanColor,detail_bgColor
+0,나비,1,5,5,3,4,2,1,하늘에 구름의 양,5,5,3,5,5,3,1,1,1,4
+1,rub,2,5,5,4,4,3,3,the style of painting regarding to cultural bg ( ex. flamingo) - very huge,4,5,4,3,4,5,2,2,3,4
+2,Daisy,5,6,5,5,4,2,4,Definition of the painting (due to the drawing styles) - moderate,5,3,4,2,3,4,3,3,2,3
+3,Doky,0,2,5,4,4,2,4,"인물의 표정, 주변 풍경, 상황적 유추",4,4,3,3,5,4,2,3,5,4
+4,chanpig,3,8,4,4,4,4,4,곡선과 직선,4,4,4,4,4,4,2,2,4,4
+5,곤듀,1,7,5,4,3,4,4,,4,4,4,4,4,5,2,4,2,4
+6,이인애,2,6,5,4,3,4,4,선의표현 - 영향있음,4,4,4,3,3,4,2,4,4,4
+7,고고,1,7,5,3,3,3,3,-,5,5,4,4,4,5,4,4,4,3
+8,경,0,6,5,3,3,3,2,"파도나 구름, 풀 등 배경 요소",5,5,5,4,4,4,3,5,2,3
+9,yoni,2,5,5,4,3,4,1,,4,5,5,3,4,4,2,2,4,5
+10,밍경댕,2,4,4,3,4,1,3,바다의 색상을 통한 깊이표현 - 큰영향  하늘의 색상을 통하 날씨- 큰영향  ,5,5,4,3,4,4,2,1,4,4
+11,배뀽,1,4,1,1,1,1,5,"밝은데 곳곳에 어두우면 역동성 저해 파도의 흐름, 바람의 표현 등",1,1,2,3,1,1,2,1,3,1
+12,미지,1,6,5,4,3,4,2,색 대비-보통 영향,4,4,3,2,4,4,3,1,3,4
+13,boldmas,1,3,5,4,4,4,3,the elements of the background or the foreground and the type of the element (e.g. a moving fire or a plain building),4,5,3,2,2,4,4,3,3,4
