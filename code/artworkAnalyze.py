@@ -80,7 +80,8 @@ def tempo_graph():
     #ax = sns.lmplot(x="sod", y="tempo_score", data=df,  hue="activityType", palette=palette_colorTwo, scatter=False, legend=False)
     #ax.set(ylim=(-2, 12))   
     #ax.set(xlim=(-2, 12))   
-    ax = sns.kdeplot(x="sod", y="tempo_score", data=df, fill=True, alpha=.8, levels=8, hue="activityType", bw_adjust=1.8) 
+    ax = sns.kdeplot(x="sod", y="tempo_score", data=df, fill=False, alpha=.5, levels=8, hue="activityType", bw_adjust=1.8, linewidth=0)
+    ax = sns.regplot(x="sod", y="tempo_score", data=df, scatter=False, color="black")
     ax.set_xlim([-2, 12])
     ax.set_ylim([-2, 12])
     #ax.set_ylabel("Sense of Dynamic Score")
@@ -97,12 +98,12 @@ def pitch_graph():
     print(df_new.head(4))
     ax = plt.figure(figsize = (4,4))
     
-    ax = sns.jointplot(x="sod", y="pitch_score", data=df, kind="hist",  alpha=0.0, hue="activityType", palette=palette_colorTwo, legend = False)
+    ax = sns.jointplot(x="sod", y="pitch_score", data=df, kind="hist",  alpha=0.0, hue="activityType", palette=palette_colorTwo, legend = False, linewidth=0.3)
     #ax = sns.lmplot(x="sod", y="pitch_score", data=df,  hue="activityType", palette=palette_colorTwo, scatter=False, legend=False)
     #ax.set(ylim=(-2, 12))   
     #ax.set(xlim=(-2, 12))   
-    ax = sns.kdeplot(x="sod", y="pitch_score", data=df, fill=True, alpha=.8,  hue="activityType")
-    
+    ax = sns.kdeplot(x="sod", y="pitch_score", data=df, fill=False, alpha=.5,  hue="activityType", bw_adjust=1.2)
+    ax = sns.regplot(x="sod", y="pitch_score", data=df, scatter=False, color="black")
     ax.set_xlim([-2, 12])
     ax.set_ylim([-2, 12])
     #ax.set_xlabel("Pitch Level")
@@ -123,7 +124,8 @@ def density_graph():
     #ax = sns.lmplot(x="sod", y="density_score", data=df,  hue="activityType", palette=palette_colorTwo, scatter=False, legend=False)
     #ax.set(ylim=(-2, 12))   
     #ax.set(xlim=(-2, 12)) 
-    ax = sns.kdeplot(x="sod", y="density_score", data=df, fill=True, alpha=.8,  levels=8, hue="activityType", bw_adjust=1.8)
+    ax = sns.kdeplot(x="sod", y="density_score", data=df, fill=False, alpha=.5,  hue="activityType", bw_adjust=1.8, linewidth=0.2)
+    ax = sns.regplot(x="sod", y="density_score", data=df, scatter=False, color="black")
 
     ax.set_xlim([-2, 12])
     ax.set_ylim([-2, 12])
@@ -196,13 +198,13 @@ if __name__ == '__main__':
         
     #sod_graph()
 
-    #tempo_graph()
-    #pitch_graph()
-    #density_graph()
+    tempo_graph()
+    pitch_graph()
+    density_graph()
 
     #run for each artwork 
-    for i in range(21):
-        grid_heatmap("A" + str(i+1))    
+    #for i in range(21):
+    #    grid_heatmap("A" + str(i+1))    
 
 
 

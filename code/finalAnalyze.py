@@ -42,8 +42,7 @@ def elementGraph():
 
 
 def detailGraph():
-    df_new = pd.melt(df, id_vars=['nickname'], value_vars=["detail_poseSize", "detail_arms", "detail_inclination", "detail_effort", "detail_face", "detail_activity",
-             "detail_number", "detail_location", "detail_humanColor", "detail_bgColor"], var_name='details', value_name='value')
+    df_new = pd.melt(df, id_vars=['nickname'], value_vars=["detail_poseSize", "detail_arms", "detail_effort", "detail_activity","detail_face",  "detail_number", "detail_location", "detail_humanColor", "detail_bgColor"], var_name='details', value_name='value')
     print(df_new.head(4))
     ax = plt.figure(figsize = (16,5))
     sns.set_theme(style="ticks")
