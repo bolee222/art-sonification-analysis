@@ -2,7 +2,9 @@ from sklearn.cluster import KMeans
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
- 
+import colorsys
+from collections import Counter
+
 # Load the image using mpimg.imread(). Use a raw string (prefix r) or escape the backslashes.
 
 def calDominantColor(path, n_colors=16):
@@ -19,15 +21,14 @@ def calDominantColor(path, n_colors=16):
     model = KMeans(n_clusters=n_colors, random_state=42).fit(pixel)
     
     # Get the cluster centers (representing colors) from the model
-    import colorsys
-    hls_list = [colorsys.rgb_to_hls(r,g,b) for [r,g,b,_] in model.cluster_centers_]
+    hue_list = [colorsys.rgb_to_hls(r,g,b) for [r,g,b,_] in model.cluster_centers_]
     colour_palette = np.uint8(model.cluster_centers_*255)
-
-    from collections import Counter
 
     labels = Counter(model.labels_)
 
-    y = {'centroids':colour_palette[:,:-1],
+    y = {
+        'hue_list': hue_list,
+        'centroids':colour_palette[:,:-1],
         'labels':labels}
     
     return y
