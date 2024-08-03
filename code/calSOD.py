@@ -1,11 +1,13 @@
 import os
-import h5py
 import numpy as np
 from scipy.spatial.distance import pdist
 from joblib import Parallel, delayed
 from sklearn.preprocessing import normalize
 import matplotlib.pyplot as plt
 from glob import glob
+from scipy import stats
+from calDominantColor import calDominantColor
+import json
 
 # version for GPD
 n_coco = 17
@@ -50,8 +52,8 @@ def get_jj(jj,i,j):
     return jj[l]
 
 def joint_line_distance(joints,lines,mask):
-
-    j1,j2 = joints[lines.swapaxes(1,0)]
+    j1 = [joints[i] for i in lines[:,0]]
+    j2 = [joints[i] for i in lines[:,1]]
 
     J1 = np.repeat(j1, n_coco, axis=0).reshape(n_lines,n_coco,3)
     J2 = np.repeat(j2, n_coco, axis=0).reshape(n_lines,n_coco,3)
@@ -65,7 +67,6 @@ def joint_line_distance(joints,lines,mask):
     P = (A+B+C)/2
     jl_d = 2*np.sqrt(P*(P-A)*(P-B)*(P-C))/(C) # Heron's formula
 
-    # print(mask)
     jl_d = np.ma.array(jl_d,mask=mask).compressed()
 
     jl_d = np.nan_to_num(jl_d)
@@ -128,23 +129,25 @@ def line_joint_ratio(joints,lines,mask):
     lj_r = np.nan_to_num(lj_r)
     lj_r = np.ma.array(lj_r,mask=mask).compressed()
 
-    
-    # for x in lj_r:
-    #     x = x.compressed()
-    #     print(x)
-    # exit()
-
     return lj_r
 
 if __name__ == '__main__':
     index = 0
 
+    # lines = np.array(
+        # [[5,6], [5,7],[7,9],[6,8],[8,10],[11,13],[13,15],[12,14],[14,16]] )
+    # lines = np.append(lines, [[5,9],[6,10],[11,15],[12,16]], axis=0)
+    # lines = np.append(lines, [ [9,10], [9,15], [9,16], [10,15], [10,16], [15,16]], axis=0)
+    # lines = np.append(lines, [[0,9], [0,10], [0,15], [0, 16], [9,10], [9,15], [9,16], [10,15], [10,16], [15,16]], axis=0)
+    # lines = np.ascontiguousarray(lines).astype(np.int)
+
+
     lines = np.array(
-        [[5,6], [5,7],[7,9],[6,8],[8,10],[11,13],[13,15],[12,14],[14,16]] )
-    lines = np.append(lines, [[5,9],[6,10],[11,15],[12,16]], axis=0)
-    lines = np.append(lines, [[0,9], [0,10], [0,15], [0, 16], [9,10], [9,15], [9,16], [10,15], [10,16], [15,16]], axis=0)
+        [[0,9], [0,10], [0,15], [0, 16],[6,8],[8,10], [6,12], [5,11], [5,7], [7,9], [12,14],[14,16],[11,13],[13,15]]
+    )
     planes = np.array([[5,7,9],[6,8,10],[11,13,15],[12,14,16]]) 
 
+    n_lines = len(lines)
 
     print('n_lines :', n_lines)
     print('n_planes :', n_planes)
@@ -154,7 +157,7 @@ if __name__ == '__main__':
     for i in range(n_coco):
         jj_mask[i,0:i+1,:] = True
 
-    jl_mask = np.full((n_lines,n_coco), False, dtype=bool)
+    jl_mask = np.full((n_lines, n_coco), False, dtype=bool)
     for i in range(n_lines):
         jl_mask[i][[0, 1,2,3,4]] = True
         jl_mask[i][lines[i]] = True
@@ -173,51 +176,93 @@ if __name__ == '__main__':
             jp_index[j,i,1] = max(k,planes[i,0])
             j = j+1
 
-    # 31 : # of lines - 3 | 5 : number of planars
-    lp_index = np.zeros((n_lines-3, n_planes, 2),dtype='int')
-    for i in range(n_planes):
-        j = 0
-        for x,y in lines:
-            if x in planes[i] and y in planes[i]:
-                continue
-            lp_index[j,i,:] = [x,y]
-            j = j+1
+    flist = sorted(glob('/home/bhb0722/exp/JythonMusic/eval_0802/output/*.npy'))
 
-    flist = sorted(glob('./output/*.npy'))
+    meta = {
+        'M1' : [0],
+        'M2' : [0],
+        'M3' : [0],
+        'M4' : [0],
+        'M5' : [0],
+        'S1' : [0],
+        'S2' : [1],
+        'S3' : [0],
+        'S4' : [0],
+        'S5': [0],
+    }
 
     for fname in flist:
-        if len(os.path.basename(fname)) > 9:
-            continue
 
-        bname = os.path.basename(fname)
-        pos = np.load(fname)
-        pos = np.array([list(x) + [0] for x in pos])
+        idx = os.path.basename(fname).split('.')[0]
+        img_data = np.load(fname, allow_pickle=True).item()
 
+        #'orignal_img', 'n_boxes', 'boxes', 'box_imgs', 'keypoints'
+        original_img = img_data['orignal_img']
+        y = calDominantColor(original_img, n_colors=16)
+
+        y.update({'hue_original_img': y['hue_list']})
         
+        n_boxes = img_data['n_boxes']
+        idxs = []
+
+        for i, pos in enumerate(img_data['keypoints']):
+            print(i)
+            if not i in meta[idx]:
+                continue
+            idxs.append(i)
+            box_img = img_data['box_imgs'][i]
+            by = calDominantColor(box_img, n_colors=16)
+            y[f'hue_box_img_{i}'] = by['hue_list']
+            pos = [np.append(x, [0]) for x in pos]
+            # JL_D = joint_line_distance(pos, lines, jl_mask)
+            jj_o = joint_joint_orientation(pos, jj_mask)
+            LL_A = line_line_angle(jj_o, lines, ll_mask)
+            res = stats.cumfreq(LL_A, numbins=16)            
+            hist = res.cumcount
+            hist = np.append(hist[:1], hist[1:] - hist[:-1])
+            mask = np.reshape(hist, (2, -1)).T.reshape(-1)
+            print(mask)
+            mask = [1 if x>=4 else 0 for x in mask]
+            tempo =  int(np.mean(LL_A) * 10) * 8
+            y[f'human_{i}'] = {'mask':mask, 'tempo':tempo}
         
-        xmin, xmax = np.min(pos[:, 0]), np.max(pos[:, 0])
-        ymin, ymax = np.min(pos[:, 1]), np.max(pos[:, 1])
-        pos[:,0] = (pos[:,0] - xmin) / (xmax - xmin)
-        pos[:,1] = (pos[:,1] - ymin) / (ymax - ymin)
+        y['idxs'] = idxs
 
-        fname = fname.replace('.npy','_jld.npy')
+            # print(fnames, len(LL_A), np.mean(LL_A), np.std(LL_A))
 
-    
-        JL_D = joint_line_distance(pos, lines, jl_mask)
-        JL_D = sorted(JL_D)[-30:]
-        # JL_D = np.log(np.array(sorted(JL_D)[-50:]) / 300 + 1e-5)
+        jname = fname.replace('.npy', '.json')
+        with open(jname,'w') as f:
+            json.dump(y, f, indent=4)
 
-        print(bname, np.mean(JL_D), np.std(JL_D))
-        # print(JL_D)
+        # print(y)
+        # exit()
+            
+            # exit()
+            # LL_A,_ = stats.boxcox(LL_A)
+
+            # print(bname, np.mean(JL_D), np.std(JL_D))
+            
+            
+            # fnames = fname.replace('.npy', f'_{i}.png')
+            
+            # fig = plt.figure(figsize=(20,5))
+            # plt.subplot(211)
+            # plt.imshow(img_data['box_imgs'][i])
+            # plt.subplot(212)
+            # plt.hist(LL_A, bins=16)#, cumulative=True)
+            # plt.savefig(fnames)
         # exit()
         # ljr = line_joint_ratio(pos, lines, jl_mask)
         
-        np.save(fname, JL_D)
+        # np.save(fname, JL_D)
         
-        fname = fname.replace('.npy', '.png')
-        plt.figure(figsize=(20,5))
-        plt.hist(JL_D, bins=30)
-        plt.savefig(fname)
+        # fname = fname.replace('.npy', '.png')
+        # plt.figure(figsize=(20,5))
+        # plt.hist(JL_D, bins=30)
+        # plt.savefig(fname)
+
+
+
     # R = rotation(pos)
     # L = length(pos, lines)
     # J_C = joint_coordinate(pos, R, L)
