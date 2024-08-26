@@ -18,7 +18,7 @@ if __name__ == '__main__':
     sound_types = ['A', 'B', 'C', 'D']
 
     for i in range(1,n):
-        res_id = int( df_pre_survey.loc[i, 'respondent_id'] )
+        res_id = int( df_pre_survey.loc[i, 'Your Prolific ID'] )
             
         for j in range(0, m, 16): # q_order
             n_art = q_order[j // 16]
@@ -62,9 +62,9 @@ if __name__ == '__main__':
                 y.append(t)
 
             
-    df_y_survey = pd.DataFrame(y, columns=['Response ID', 'Artwork Number', 'Question Type', 'Survey Column', 'Actual Sound', 'User Answer', 'Artwork Dynamism', 'Comment'])
+    df_y_survey = pd.DataFrame(y, columns=['Your Prolific ID', 'Artwork Number', 'Question Type', 'Survey Column', 'Actual Sound', 'User Answer', 'Artwork Dynamism', 'Comment'])
     df_y_survey.to_csv('survey.csv')
 
     df_pre_survey.to_csv('pre_survey.csv')
-    df_post_survey.insert(0, 'Reponse ID', df_pre_survey['respondent_id'], True)
+    df_post_survey.insert(0, 'Your Prolific ID', df_pre_survey['Your Prolific ID'], True)
     df_post_survey.to_csv('post_survey.csv')
