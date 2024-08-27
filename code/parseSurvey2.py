@@ -41,7 +41,7 @@ if __name__ == '__main__':
             har_ans = [int(re.sub(pattern=r'\([^)]*\)', repl='', string= x).replace(' ','')) for x in har_ans]
             dyn_ans = df_survey.iloc[i,(j+5):(j+9)].to_list()
             dyn_sub = df_survey.iloc[i,j+9]
-            dyn_ans = [int(re.sub(pattern=r'\([^)]*\)', repl='', string= x).replace(' ','')) for x in dyn_ans]
+            #dyn_ans = [int(re.sub(pattern=r'\([^)]*\)', repl='', string= x).replace(' ','')) for x in dyn_ans]
             qual_ans = df_survey.iloc[i,(j+10):(j+14)].to_list()
             qual_sub = df_survey.iloc[i,j+14]
             qual_ans = [int(re.sub(pattern=r'\([^)]*\)', repl='', string= x).replace(' ','')) for x in qual_ans]
