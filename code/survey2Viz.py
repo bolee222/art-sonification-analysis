@@ -88,7 +88,7 @@ def survey2Graph_Catplot():
     sns.set_theme(style="ticks")    
 
     hue_order = ['Sound A', 'Sound B', 'Sound C']
-    ax = sns.catplot(data=df_main, x="Question Type", y="User Answer", hue = "Actual Sound", kind="point", palette=my_colors_3b, errorbar="ci",  capsize=.05, errwidth=1)
+    ax = sns.catplot(data=df_main, x="Question Type", y="User Answer", hue = "Actual Sound", kind="point", palette=my_colors_3b, errorbar="ci",  capsize=.05, errwidth=2)
 
     plt.gcf().set_size_inches(14,8)
 
@@ -130,9 +130,9 @@ def Static_Dynamic(criteria):
     hue_order = ['Sound A', 'Sound B', 'Sound C']
     ax = sns.catplot(data=df_here, x="Actual Sound", y="User Answer", hue = "DynamicStatus", kind="point", errorbar="ci",  capsize=.05, errwidth=2, order=hue_order, legend=False, palette=my_colors_2_dynamic, linewidth=3.5)
 
-    plt.gcf().set_size_inches(12,8)
+    plt.gcf().set_size_inches(8,8)
 
-    ax.set(ylim=(1, 5))
+    ax.set(ylim=(0.5, 5.5))
     #ax.grid(axis='y', linewidth=1, alpha=0.8)
     #ax.grid(which='minor', alpha=0.5)
 
